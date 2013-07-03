@@ -1,0 +1,30 @@
+﻿Build started 01/07/2013 3:50:25 PM.
+     1>Project "E:\Documents\Dropbox\Dropbox\ProjectTemple\ProjectTemple\Win32App\Win32App.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Win32App.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IE:\Documents\Dropbox\Dropbox\ProjectTemple\ProjectTemple\Win32App\\..\ProjectTemple\ /I"D:\Programs\DirectX SDK (June 2010)\\Include\\" /ID:\Programs\Havok\hk2012_1_0_r1\Source\ /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt LoadScene.cpp main.cpp
+         LoadScene.cpp
+         d:\programs\directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         Generating Code...
+         Compiling...
+         main.cpp
+         d:\programs\directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Documents\Dropbox\Dropbox\ProjectTemple\ProjectTemple\Debug\Win32App.exe" /NOLOGO /LIBPATH:E:\Documents\Dropbox\Dropbox\ProjectTemple\ProjectTemple\Win32App\\..\Debug\ /LIBPATH:D:\Programs\Havok\hk2012_1_0_r1\Lib\win32_vs2010_noSimd\debug_multithreaded ProjectTemple.lib hkBase.lib hkCompat.lib hkSceneData.lib hkSerialize.lib hkVisualize.lib hkInternal.lib hkGeometryUtilities.lib hkcdInternal.lib hkcdCollide.lib hkpCollide.lib hkpConstraintSolver.lib hkpDynamics.lib hkpInternal.lib hkpUtilities.lib hkpVehicle.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Win32App.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Documents\Dropbox\Dropbox\ProjectTemple\ProjectTemple\Debug\Win32App.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Documents\Dropbox\Dropbox\ProjectTemple\ProjectTemple\Debug\Win32App.lib" /MACHINE:X86 Debug\LoadScene.obj
+         Debug\main.obj
+         Debug\TestScene.obj
+         LINK : E:\Documents\Dropbox\Dropbox\ProjectTemple\ProjectTemple\Debug\Win32App.exe not found or not built by the last incremental link; performing full link
+     1>LINK : warning LNK4098: defaultlib 'LIBCMTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Win32App.vcxproj -> E:\Documents\Dropbox\Dropbox\ProjectTemple\ProjectTemple\Debug\Win32App.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\Documents\Dropbox\Dropbox\ProjectTemple\ProjectTemple\Debug\Win32App.exe;#1" /manifest Debug\Win32App.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\Win32App.unsuccessfulbuild".
+         Touching "Debug\Win32App.lastbuildstate".
+     1>Done Building Project "E:\Documents\Dropbox\Dropbox\ProjectTemple\ProjectTemple\Win32App\Win32App.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.02
