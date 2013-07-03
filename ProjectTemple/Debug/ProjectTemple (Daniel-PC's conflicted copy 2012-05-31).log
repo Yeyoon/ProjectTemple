@@ -1,0 +1,19 @@
+﻿Build started 30/05/2012 11:16:51 PM.
+     1>Project "F:\Documents\Dropbox\Dropbox\ProjectTemple\ProjectTemple\ProjectTemple\ProjectTemple.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\ProjectTemple.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         ProjectTemple.vcxproj -> F:\Documents\Dropbox\Dropbox\ProjectTemple\ProjectTemple\Debug\ProjectTemple.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\ProjectTemple.unsuccessfulbuild".
+         Touching "Debug\ProjectTemple.lastbuildstate".
+     1>Done Building Project "F:\Documents\Dropbox\Dropbox\ProjectTemple\ProjectTemple\ProjectTemple\ProjectTemple.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.15

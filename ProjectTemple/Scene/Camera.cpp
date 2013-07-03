@@ -1,0 +1,100 @@
+///////////////////////////////////////////////////////////////
+// Filename:	Camera.cpp
+// Author:		Daniel Cossu
+// Company:		Ripe Tomato Studios
+///////////////////////////////////////////////////////////////
+#include <Systems\Overlord.h>
+#include <Scene\Camera.h>
+
+using namespace Engine;
+
+///////////////////////////////////////////////////////////////
+// Constructors and Destructors
+///////////////////////////////////////////////////////////////
+Camera::Camera(void)
+{
+	m_positionX = m_positionY = m_positionZ = 0.0f;
+	m_lookAtX = m_lookAtY = 0.0f;
+	m_lookAtZ = 1.0f;
+	m_upX = 0.0f;
+	m_upY = 1.0f;
+	m_upZ = 0.0f;
+
+	m_frustum = new Frustum();
+	if(!m_frustum)
+	{
+		//LogManager::GetInstance()->Warning("Camera::Frustum not properly allocated");
+	}
+}
+
+Camera::Camera(const Camera &other)
+{
+}
+
+Camera::~Camera(void)
+{
+}
+
+///////////////////////////////////////////////////////////////
+// Public Functions
+///////////////////////////////////////////////////////////////
+void Camera::SetPosition(float x, float y, float z)
+{
+	m_positionX = x;
+	m_positionY = y;
+	m_positionZ = z;
+}
+
+void Camera::SetLookAt(float x, float y, float z)
+{
+	m_lookAtX = x;
+	m_lookAtY = y;
+	m_lookAtZ = z;
+}
+
+void Camera::SetUp(float x, float y, float z)
+{
+	m_upX = x;
+	m_upY = y;
+	m_upZ = z;
+}
+
+D3DXVECTOR3 Camera::GetPosition(void)
+{
+	return D3DXVECTOR3(m_positionX, m_positionY, m_positionZ);
+}
+
+Frustum* Camera::GetFrustum(void)
+{
+	return m_frustum;
+}
+
+void Camera::Render(void)
+{
+	D3DXVECTOR3 up, position, lookAt;
+
+	up.x = m_upX;
+	up.y = m_upY;
+	up.z = m_upZ;
+
+	position.x = m_positionX;
+	position.y = m_positionY;
+	position.z = m_positionZ;
+
+	lookAt.x = m_lookAtX;
+	lookAt.y = m_lookAtY;
+	lookAt.z = m_lookAtZ;
+
+	D3DXMatrixLookAtLH(&m_viewMatrix, &position, &lookAt, &up);
+
+	//Construct the Frustum
+	D3DXMATRIX proj;
+
+	Overlord::GetInstance()->GetDX11System()->GetProjectionMatrix(proj);
+	m_frustum->Construct(g_zFar, proj, m_viewMatrix);
+}
+
+void Camera::GetViewMatrix(D3DXMATRIX &view)
+{
+	view = m_viewMatrix;
+}

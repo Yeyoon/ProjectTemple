@@ -1,0 +1,23 @@
+-Havok (Semi-Implemented)
+-Static Shadows done on static objects, dynamic shadows done on dynamic objects, blend.
+
+-Menus
+-UI
+-Bokeh II DoF
+
+-Light Maps
+
+-Billboarding
+-Render To Texture
+-Fog
+-Clipping Planes
+-Texture Translation
+-Transparency
+-Reflection
+-Screen Fading
+-Water
+-Multiple Point Lights
+
+
+-Make all renderable objects siblings. (Optional)
+-Keep investing Voxel cone lighting.

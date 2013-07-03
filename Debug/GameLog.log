@@ -1,0 +1,27 @@
+ ------START------ 
+
+[Sat Oct 27 23:31:42 2012] : System initializing...
+[Sat Oct 27 23:31:42 2012] : Window initializing...
+[Sat Oct 27 23:31:42 2012] : Window successfully initialized
+[Sat Oct 27 23:31:42 2012] : DX11System initializing...
+[Sat Oct 27 23:31:43 2012] : Available video card memory 1233 MB
+[Sat Oct 27 23:31:43 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Sat Oct 27 23:31:43 2012] : DX11System successfully initialized
+[Sat Oct 27 23:31:43 2012] : [ERROR] Model::LoadModel could not load model (into scene) (cube.rmf)
+[Sat Oct 27 23:31:43 2012] : [ERROR] Model::Initialize could not load the model (cube.rmf)
+[Sat Oct 27 23:31:43 2012] : [ERROR] Graphics::Initialize TestModel could not be initialized
+[Sat Oct 27 23:31:43 2012] : [ERROR] System::Initialize Graphics could not be initialized
+ ------START------ 
+
+[Sat Oct 27 23:33:27 2012] : System initializing...
+[Sat Oct 27 23:33:27 2012] : Window initializing...
+[Sat Oct 27 23:33:27 2012] : Window successfully initialized
+[Sat Oct 27 23:33:27 2012] : DX11System initializing...
+[Sat Oct 27 23:33:27 2012] : Available video card memory 1233 MB
+[Sat Oct 27 23:33:27 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Sat Oct 27 23:33:27 2012] : DX11System successfully initialized
+[Sat Oct 27 23:33:28 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Sat Oct 27 23:33:28 2012] : System initialization successful
+
+ -------END------- 
+

@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Counters\CPUCounter.cpp" />
+    <ClCompile Include="Counters\FPSCounter.cpp" />
+    <ClCompile Include="Counters\Timer.cpp" />
+    <ClCompile Include="Math\Math.cpp" />
+    <ClCompile Include="Math\Quaternion.cpp" />
+    <ClCompile Include="Math\Vector2.cpp" />
+    <ClCompile Include="Math\Vector3.cpp" />
+    <ClCompile Include="Math\Vector4.cpp" />
+    <ClCompile Include="Matrix3.cpp" />
+    <ClCompile Include="Matrix4.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Scene\Bitmap.cpp" />
+    <ClCompile Include="Scene\Camera.cpp" />
+    <ClCompile Include="Scene\Frustum.cpp" />
+    <ClCompile Include="Scene\Light.cpp" />
+    <ClCompile Include="Scene\Mesh.cpp" />
+    <ClCompile Include="Scene\Model.cpp" />
+    <ClCompile Include="Scene\Text.cpp" />
+    <ClCompile Include="Scene\Texture.cpp" />
+    <ClCompile Include="Scene\TextureManager.cpp" />
+    <ClCompile Include="Settings.cpp" />
+    <ClCompile Include="Shader\ColorShader.cpp" />
+    <ClCompile Include="Shader\LightShader.cpp" />
+    <ClCompile Include="Shader\MultiTextureShader.cpp" />
+    <ClCompile Include="Shader\ShaderManager.cpp" />
+    <ClCompile Include="Shader\TextureShader.cpp" />
+    <ClCompile Include="Systems\DX11System.cpp" />
+    <ClCompile Include="Systems\Graphics.cpp" />
+    <ClCompile Include="Systems\Input.cpp" />
+    <ClCompile Include="Systems\LogManager.cpp" />
+    <ClCompile Include="Systems\Overlord.cpp" />
+    <ClCompile Include="Systems\SoundSystem.cpp" />
+    <ClCompile Include="Systems\System.cpp" />
+    <ClCompile Include="Systems\Thread.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Counters\CPUCounter.h" />
+    <ClInclude Include="Counters\FPSCounter.h" />
+    <ClInclude Include="Counters\Timer.h" />
+    <ClInclude Include="Math\Colour.h" />
+    <ClInclude Include="Math\Math.h" />
+    <ClInclude Include="Math\Quaternion.h" />
+    <ClInclude Include="Math\Vector2.h" />
+    <ClInclude Include="Math\Vector3.h" />
+    <ClInclude Include="Math\Vector4.h" />
+    <ClInclude Include="Matrix3.h" />
+    <ClInclude Include="Matrix4.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Scene\Bitmap.h" />
+    <ClInclude Include="Scene\Camera.h" />
+    <ClInclude Include="Scene\Frustum.h" />
+    <ClInclude Include="Scene\Light.h" />
+    <ClInclude Include="Scene\Mesh.h" />
+    <ClInclude Include="Scene\Model.h" />
+    <ClInclude Include="Scene\Renderable.h" />
+    <ClInclude Include="Scene\Scene.h" />
+    <ClInclude Include="Scene\Text.h" />
+    <ClInclude Include="Scene\Texture.h" />
+    <ClInclude Include="Scene\TextureManager.h" />
+    <ClInclude Include="Settings.h" />
+    <ClInclude Include="Shader\ColorShader.h" />
+    <ClInclude Include="Shader\LightShader.h" />
+    <ClInclude Include="Shader\MultiTextureShader.h" />
+    <ClInclude Include="Shader\ShaderManager.h" />
+    <ClInclude Include="Shader\TextureShader.h" />
+    <ClInclude Include="Systems\Destroyer.h" />
+    <ClInclude Include="Systems\DX11System.h" />
+    <ClInclude Include="Systems\Graphics.h" />
+    <ClInclude Include="Systems\Input.h" />
+    <ClInclude Include="Systems\LogManager.h" />
+    <ClInclude Include="Systems\Overlord.h" />
+    <ClInclude Include="Systems\SoundSystem.h" />
+    <ClInclude Include="Systems\System.h" />
+    <ClInclude Include="Systems\Thread.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="TODO List.txt" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FFC461A6-811F-495F-8D61-5D3AE2E8990B}</ProjectGuid>
+    <RootNamespace>ProjectTemple</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <AdditionalIncludeDirectories>$(DXSDK_DIR)\Include\;$(ProjectDir)\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(DXSDK_DIR)\Lib\x86;$(ProjectDir)\lib;$(ProjectDir)\FMOD\Win32\lib;$(ProjectDir)\FMOD\Win64\lib;$(HK_DIR)\Lib\win32_vs2010_noSimd\debug_multithreaded;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>dxgi.lib;d3d11.lib;d3dx11.lib;d3dx10.lib;dinput8.lib;dxguid.lib;fmodex_vc.lib;fmodexL_vc.lib;assimp.lib;FW1FontWrapper.lib;winmm.lib;pdh.lib;hkBase.lib;hkCompat.lib;hkSceneData.lib;hkSerialize.lib;hkVisualize.lib;hkInternal.lib;hkGeometryUtilities.lib;hkcdInternal.lib;hkcdCollide.lib;hkpCollide.lib;hkpConstraintSolver.lib;hkpDynamics.lib;hkpInternal.lib;hkpUtilities.lib;hkpVehicle.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Lib>
+      <AdditionalLibraryDirectories>$(DXSDK_DIR)\Lib\x86;$(ProjectDir)\lib;$(ProjectDir)\FMOD\Win32\lib;$(ProjectDir)\FMOD\Win64\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>dxgi.lib;d3d11.lib;d3dx11.lib;d3dx10.lib;dinput8.lib;dxguid.lib;fmodex_vc.lib;fmodexL_vc.lib;assimp.lib;FW1FontWrapper.lib;winmm.lib;pdh.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,1738 @@
+ ------START------ 
+
+[Sun Apr 29 15:29:06 2012] : System initializing...
+[Sun Apr 29 15:29:06 2012] : Window initializing...
+[Sun Apr 29 15:29:06 2012] : Window successfully initialized
+[Sun Apr 29 15:29:06 2012] : DX11System initializing...
+[Sun Apr 29 15:29:06 2012] : Available video card memory 1248 MB
+[Sun Apr 29 15:29:06 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Sun Apr 29 15:29:06 2012] : DX11System successfully initialized
+[Sun Apr 29 15:29:06 2012] : [ERROR] Could not create vertex shader
+[Sun Apr 29 15:29:06 2012] : [ERROR] Could not initialize Texture Shaders
+[Sun Apr 29 15:29:06 2012] : [ERROR] Light shader could not be initialized
+[Sun Apr 29 15:29:06 2012] : [ERROR] Graphics could not be initialized
+
+ -------END------- 
+
+ ------START------ 
+
+[Sun Apr 29 15:32:13 2012] : System initializing...
+[Sun Apr 29 15:32:13 2012] : Window initializing...
+[Sun Apr 29 15:32:13 2012] : Window successfully initialized
+[Sun Apr 29 15:32:13 2012] : DX11System initializing...
+[Sun Apr 29 15:32:13 2012] : Available video card memory 1248 MB
+[Sun Apr 29 15:32:13 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Sun Apr 29 15:32:13 2012] : DX11System successfully initialized
+[Sun Apr 29 15:32:13 2012] : [HLSL] F:\Documents\Dropbox\Dropbox\ProjectTemple\ProjectTemple\ProjectTemple\Light.vs(26,18): error X4502: invalid vs_2_0 output semantic 'NORMAL'
+
+[Sun Apr 29 15:32:13 2012] : [ERROR] Could not initialize Texture Shaders
+[Sun Apr 29 15:32:13 2012] : [ERROR] Light shader could not be initialized
+[Sun Apr 29 15:32:13 2012] : [ERROR] Graphics could not be initialized
+
+ -------END------- 
+
+ ------START------ 
+
+[Sun Apr 29 15:33:19 2012] : System initializing...
+[Sun Apr 29 15:33:19 2012] : Window initializing...
+[Sun Apr 29 15:33:19 2012] : Window successfully initialized
+[Sun Apr 29 15:33:19 2012] : DX11System initializing...
+[Sun Apr 29 15:33:19 2012] : Available video card memory 1248 MB
+[Sun Apr 29 15:33:19 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Sun Apr 29 15:33:19 2012] : DX11System successfully initialized
+[Sun Apr 29 15:33:19 2012] : [HLSL] F:\Documents\Dropbox\Dropbox\ProjectTemple\ProjectTemple\ProjectTemple\Light.vs(26,18): error X4502: invalid vs_2_0 output semantic 'NORMAL0'
+
+[Sun Apr 29 15:33:19 2012] : [ERROR] Could not initialize Texture Shaders
+[Sun Apr 29 15:33:19 2012] : [ERROR] Light shader could not be initialized
+[Sun Apr 29 15:33:19 2012] : [ERROR] Graphics could not be initialized
+
+ -------END------- 
+
+ ------START------ 
+
+[Sun Apr 29 15:33:53 2012] : System initializing...
+[Sun Apr 29 15:33:53 2012] : Window initializing...
+[Sun Apr 29 15:33:53 2012] : Window successfully initialized
+[Sun Apr 29 15:33:53 2012] : DX11System initializing...
+[Sun Apr 29 15:33:53 2012] : Available video card memory 1248 MB
+[Sun Apr 29 15:33:53 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Sun Apr 29 15:33:53 2012] : DX11System successfully initialized
+[Sun Apr 29 15:33:53 2012] : [ERROR] Could not create vertex shader
+[Sun Apr 29 15:33:53 2012] : [ERROR] Could not initialize Texture Shaders
+[Sun Apr 29 15:33:53 2012] : [ERROR] Light shader could not be initialized
+[Sun Apr 29 15:33:53 2012] : [ERROR] Graphics could not be initialized
+
+ -------END------- 
+
+ ------START------ 
+
+[Sun Apr 29 15:34:30 2012] : System initializing...
+[Sun Apr 29 15:34:30 2012] : Window initializing...
+[Sun Apr 29 15:34:30 2012] : Window successfully initialized
+[Sun Apr 29 15:34:30 2012] : DX11System initializing...
+[Sun Apr 29 15:34:30 2012] : Available video card memory 1248 MB
+[Sun Apr 29 15:34:30 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Sun Apr 29 15:34:30 2012] : DX11System successfully initialized
+ ------START------ 
+
+[Sun Apr 29 15:35:28 2012] : System initializing...
+[Sun Apr 29 15:35:28 2012] : Window initializing...
+[Sun Apr 29 15:35:28 2012] : Window successfully initialized
+[Sun Apr 29 15:35:28 2012] : DX11System initializing...
+[Sun Apr 29 15:35:28 2012] : Available video card memory 1248 MB
+[Sun Apr 29 15:35:28 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Sun Apr 29 15:35:28 2012] : DX11System successfully initialized
+[Sun Apr 29 15:35:28 2012] : [ERROR] Could not create vertex shader
+[Sun Apr 29 15:35:28 2012] : [ERROR] Could not initialize Texture Shaders
+[Sun Apr 29 15:35:28 2012] : [ERROR] Light shader could not be initialized
+[Sun Apr 29 15:35:28 2012] : [ERROR] Graphics could not be initialized
+
+ -------END------- 
+
+ ------START------ 
+
+[Sun Apr 29 15:35:42 2012] : System initializing...
+[Sun Apr 29 15:35:42 2012] : Window initializing...
+[Sun Apr 29 15:35:42 2012] : Window successfully initialized
+[Sun Apr 29 15:35:42 2012] : DX11System initializing...
+[Sun Apr 29 15:35:43 2012] : Available video card memory 1248 MB
+[Sun Apr 29 15:35:43 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Sun Apr 29 15:35:43 2012] : DX11System successfully initialized
+[Sun Apr 29 15:35:43 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Mon Apr 30 00:39:36 2012] : System initializing...
+[Mon Apr 30 00:39:36 2012] : Window initializing...
+[Mon Apr 30 00:39:36 2012] : Window successfully initialized
+[Mon Apr 30 00:39:36 2012] : DX11System initializing...
+[Mon Apr 30 00:39:37 2012] : Available video card memory 1248 MB
+[Mon Apr 30 00:39:37 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Mon Apr 30 00:39:37 2012] : DX11System successfully initialized
+[Mon Apr 30 00:39:38 2012] : [HLSL] F:\Documents\Dropbox\Dropbox\ProjectTemple\ProjectTemple\ProjectTemple\Light.ps(56,27): error X3004: undeclared identifier 'sot'
+
+[Mon Apr 30 00:39:38 2012] : [ERROR] Could not initialize Texture Shaders
+[Mon Apr 30 00:39:38 2012] : [ERROR] Light shader could not be initialized
+[Mon Apr 30 00:39:38 2012] : [ERROR] Graphics could not be initialized
+
+ -------END------- 
+
+ ------START------ 
+
+[Mon Apr 30 00:40:09 2012] : System initializing...
+[Mon Apr 30 00:40:09 2012] : Window initializing...
+[Mon Apr 30 00:40:09 2012] : Window successfully initialized
+[Mon Apr 30 00:40:09 2012] : DX11System initializing...
+[Mon Apr 30 00:40:09 2012] : Available video card memory 1248 MB
+[Mon Apr 30 00:40:09 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Mon Apr 30 00:40:09 2012] : DX11System successfully initialized
+[Mon Apr 30 00:40:10 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Mon Apr 30 01:13:25 2012] : System initializing...
+[Mon Apr 30 01:13:25 2012] : Window initializing...
+[Mon Apr 30 01:13:25 2012] : Window successfully initialized
+[Mon Apr 30 01:13:25 2012] : DX11System initializing...
+[Mon Apr 30 01:13:25 2012] : Available video card memory 1248 MB
+[Mon Apr 30 01:13:25 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Mon Apr 30 01:13:25 2012] : DX11System successfully initialized
+[Mon Apr 30 01:13:25 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Mon Apr 30 01:13:42 2012] : System initializing...
+[Mon Apr 30 01:13:42 2012] : Window initializing...
+[Mon Apr 30 01:13:42 2012] : Window successfully initialized
+[Mon Apr 30 01:13:42 2012] : DX11System initializing...
+[Mon Apr 30 01:13:42 2012] : Available video card memory 1248 MB
+[Mon Apr 30 01:13:42 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Mon Apr 30 01:13:42 2012] : DX11System successfully initialized
+[Mon Apr 30 01:13:42 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Mon Apr 30 01:13:53 2012] : System initializing...
+[Mon Apr 30 01:13:53 2012] : Window initializing...
+[Mon Apr 30 01:13:53 2012] : Window successfully initialized
+[Mon Apr 30 01:13:53 2012] : DX11System initializing...
+[Mon Apr 30 01:13:53 2012] : Available video card memory 1248 MB
+[Mon Apr 30 01:13:53 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Mon Apr 30 01:13:53 2012] : DX11System successfully initialized
+[Mon Apr 30 01:13:54 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Mon Apr 30 01:14:11 2012] : System initializing...
+[Mon Apr 30 01:14:11 2012] : Window initializing...
+[Mon Apr 30 01:14:11 2012] : Window successfully initialized
+[Mon Apr 30 01:14:11 2012] : DX11System initializing...
+[Mon Apr 30 01:14:12 2012] : Available video card memory 1248 MB
+[Mon Apr 30 01:14:12 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Mon Apr 30 01:14:12 2012] : DX11System successfully initialized
+[Mon Apr 30 01:14:12 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Mon Apr 30 21:41:50 2012] : System initializing...
+[Mon Apr 30 21:41:50 2012] : Window initializing...
+[Mon Apr 30 21:41:50 2012] : Window successfully initialized
+[Mon Apr 30 21:41:50 2012] : DX11System initializing...
+[Mon Apr 30 21:41:51 2012] : Available video card memory 1248 MB
+[Mon Apr 30 21:41:51 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Mon Apr 30 21:41:51 2012] : DX11System successfully initialized
+[Mon Apr 30 21:41:51 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Wed May 02 22:39:16 2012] : System initializing...
+[Wed May 02 22:39:16 2012] : Window initializing...
+[Wed May 02 22:39:16 2012] : Window successfully initialized
+[Wed May 02 22:39:16 2012] : DX11System initializing...
+[Wed May 02 22:39:16 2012] : Available video card memory 1248 MB
+[Wed May 02 22:39:16 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Wed May 02 22:39:16 2012] : DX11System successfully initialized
+[Wed May 02 22:39:16 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Sat May 05 20:05:42 2012] : System initializing...
+[Sat May 05 20:05:42 2012] : Window initializing...
+[Sat May 05 20:05:42 2012] : Window successfully initialized
+[Sat May 05 20:05:42 2012] : DX11System initializing...
+[Sat May 05 20:05:42 2012] : Available video card memory 1248 MB
+[Sat May 05 20:05:42 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Sat May 05 20:05:42 2012] : DX11System successfully initialized
+[Sat May 05 20:05:43 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Sat May 05 20:19:12 2012] : System initializing...
+[Sat May 05 20:19:12 2012] : Window initializing...
+[Sat May 05 20:19:12 2012] : Window successfully initialized
+[Sat May 05 20:19:12 2012] : DX11System initializing...
+[Sat May 05 20:19:13 2012] : Available video card memory 1248 MB
+[Sat May 05 20:19:13 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Sat May 05 20:19:13 2012] : DX11System successfully initialized
+ ------START------ 
+
+[Sat May 05 20:19:28 2012] : System initializing...
+[Sat May 05 20:19:28 2012] : Window initializing...
+[Sat May 05 20:19:28 2012] : Window successfully initialized
+[Sat May 05 20:19:28 2012] : DX11System initializing...
+[Sat May 05 20:19:28 2012] : Available video card memory 1248 MB
+[Sat May 05 20:19:28 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Sat May 05 20:19:28 2012] : DX11System successfully initialized
+[Sat May 05 20:19:29 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Thu May 10 13:03:10 2012] : System initializing...
+[Thu May 10 13:03:10 2012] : Window initializing...
+[Thu May 10 13:03:10 2012] : Window successfully initialized
+[Thu May 10 13:03:10 2012] : DX11System initializing...
+[Thu May 10 13:03:10 2012] : Available video card memory 1248 MB
+[Thu May 10 13:03:10 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Thu May 10 13:03:10 2012] : DX11System successfully initialized
+[Thu May 10 13:03:12 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Thu May 10 13:03:17 2012] : System initializing...
+[Thu May 10 13:03:17 2012] : Window initializing...
+[Thu May 10 13:03:17 2012] : Window successfully initialized
+[Thu May 10 13:03:17 2012] : DX11System initializing...
+[Thu May 10 13:03:17 2012] : Available video card memory 1248 MB
+[Thu May 10 13:03:17 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Thu May 10 13:03:17 2012] : DX11System successfully initialized
+[Thu May 10 13:03:17 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Thu May 10 13:03:32 2012] : System initializing...
+[Thu May 10 13:03:32 2012] : Window initializing...
+[Thu May 10 13:03:32 2012] : Window successfully initialized
+[Thu May 10 13:03:32 2012] : DX11System initializing...
+[Thu May 10 13:03:32 2012] : Available video card memory 1248 MB
+[Thu May 10 13:03:32 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Thu May 10 13:03:32 2012] : DX11System successfully initialized
+[Thu May 10 13:03:32 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Thu May 10 13:05:10 2012] : System initializing...
+[Thu May 10 13:05:10 2012] : Window initializing...
+[Thu May 10 13:05:10 2012] : Window successfully initialized
+[Thu May 10 13:05:10 2012] : DX11System initializing...
+[Thu May 10 13:05:10 2012] : Available video card memory 1248 MB
+[Thu May 10 13:05:10 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Thu May 10 13:05:10 2012] : DX11System successfully initialized
+[Thu May 10 13:05:10 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Thu May 10 13:05:25 2012] : System initializing...
+[Thu May 10 13:05:25 2012] : Window initializing...
+[Thu May 10 13:05:25 2012] : Window successfully initialized
+[Thu May 10 13:05:25 2012] : DX11System initializing...
+[Thu May 10 13:05:25 2012] : Available video card memory 1248 MB
+[Thu May 10 13:05:25 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Thu May 10 13:05:25 2012] : DX11System successfully initialized
+[Thu May 10 13:05:26 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Wed May 23 21:32:28 2012] : System initializing...
+[Wed May 23 21:32:28 2012] : Window initializing...
+[Wed May 23 21:32:28 2012] : Window successfully initialized
+[Wed May 23 21:32:28 2012] : DX11System initializing...
+[Wed May 23 21:32:28 2012] : Available video card memory 1248 MB
+[Wed May 23 21:32:28 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Wed May 23 21:32:29 2012] : DX11System successfully initialized
+[Wed May 23 21:32:29 2012] : [ERROR] Could not create vertex shader
+[Wed May 23 21:32:29 2012] : [ERROR] Could not initialize Texture Shaders
+[Wed May 23 21:32:29 2012] : [ERROR] Light shader could not be initialized
+[Wed May 23 21:32:29 2012] : [ERROR] Graphics could not be initialized
+
+ -------END------- 
+
+ ------START------ 
+
+[Wed May 23 21:33:33 2012] : System initializing...
+[Wed May 23 21:33:33 2012] : Window initializing...
+[Wed May 23 21:33:33 2012] : Window successfully initialized
+[Wed May 23 21:33:33 2012] : DX11System initializing...
+[Wed May 23 21:33:33 2012] : Available video card memory 1248 MB
+[Wed May 23 21:33:33 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Wed May 23 21:33:33 2012] : DX11System successfully initialized
+[Wed May 23 21:34:00 2012] : [ERROR] Could not create vertex shader
+[Wed May 23 21:34:00 2012] : [ERROR] Could not initialize Texture Shaders
+ ------START------ 
+
+[Wed May 23 21:35:34 2012] : System initializing...
+[Wed May 23 21:35:34 2012] : Window initializing...
+[Wed May 23 21:35:34 2012] : Window successfully initialized
+[Wed May 23 21:35:34 2012] : DX11System initializing...
+[Wed May 23 21:35:34 2012] : Available video card memory 1248 MB
+[Wed May 23 21:35:34 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Wed May 23 21:35:34 2012] : DX11System successfully initialized
+[Wed May 23 21:35:49 2012] : System initialization successful
+ ------START------ 
+
+[Tue Jun 12 17:52:59 2012] : System initializing...
+[Tue Jun 12 17:52:59 2012] : Window initializing...
+[Tue Jun 12 17:52:59 2012] : Window successfully initialized
+[Tue Jun 12 17:52:59 2012] : DX11System initializing...
+[Tue Jun 12 17:52:59 2012] : Available video card memory 1248 MB
+[Tue Jun 12 17:52:59 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Tue Jun 12 17:52:59 2012] : DX11System successfully initialized
+[Tue Jun 12 17:53:00 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Tue Jun 12 17:53:33 2012] : System initializing...
+[Tue Jun 12 17:53:33 2012] : Window initializing...
+[Tue Jun 12 17:53:33 2012] : Window successfully initialized
+[Tue Jun 12 17:53:33 2012] : DX11System initializing...
+[Tue Jun 12 17:53:33 2012] : Available video card memory 1248 MB
+[Tue Jun 12 17:53:33 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Tue Jun 12 17:53:33 2012] : DX11System successfully initialized
+[Tue Jun 12 17:53:33 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Sun Jun 17 22:01:40 2012] : System initializing...
+[Sun Jun 17 22:01:40 2012] : Window initializing...
+[Sun Jun 17 22:01:40 2012] : Window successfully initialized
+[Sun Jun 17 22:01:40 2012] : DX11System initializing...
+[Sun Jun 17 22:01:40 2012] : Available video card memory 1248 MB
+[Sun Jun 17 22:01:40 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Sun Jun 17 22:01:40 2012] : DX11System successfully initialized
+[Sun Jun 17 22:01:40 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Sun Jun 17 22:02:03 2012] : System initializing...
+[Sun Jun 17 22:02:03 2012] : Window initializing...
+[Sun Jun 17 22:02:03 2012] : Window successfully initialized
+[Sun Jun 17 22:02:03 2012] : DX11System initializing...
+[Sun Jun 17 22:02:03 2012] : Available video card memory 1248 MB
+[Sun Jun 17 22:02:03 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Sun Jun 17 22:02:03 2012] : DX11System successfully initialized
+[Sun Jun 17 22:02:03 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Sun Jun 17 22:02:24 2012] : System initializing...
+[Sun Jun 17 22:02:24 2012] : Window initializing...
+[Sun Jun 17 22:02:24 2012] : Window successfully initialized
+[Sun Jun 17 22:02:24 2012] : DX11System initializing...
+[Sun Jun 17 22:02:24 2012] : Available video card memory 1248 MB
+[Sun Jun 17 22:02:24 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Sun Jun 17 22:02:24 2012] : DX11System successfully initialized
+[Sun Jun 17 22:02:24 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Sun Jun 17 22:03:24 2012] : System initializing...
+[Sun Jun 17 22:03:24 2012] : Window initializing...
+[Sun Jun 17 22:03:24 2012] : Window successfully initialized
+[Sun Jun 17 22:03:24 2012] : DX11System initializing...
+[Sun Jun 17 22:03:24 2012] : Available video card memory 1248 MB
+[Sun Jun 17 22:03:24 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Sun Jun 17 22:03:24 2012] : DX11System successfully initialized
+[Sun Jun 17 22:03:24 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Sun Jun 17 22:03:45 2012] : System initializing...
+[Sun Jun 17 22:03:45 2012] : Window initializing...
+[Sun Jun 17 22:03:45 2012] : Window successfully initialized
+[Sun Jun 17 22:03:45 2012] : DX11System initializing...
+[Sun Jun 17 22:03:45 2012] : Available video card memory 1248 MB
+[Sun Jun 17 22:03:45 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Sun Jun 17 22:03:45 2012] : DX11System successfully initialized
+[Sun Jun 17 22:03:45 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Sun Jun 17 22:05:51 2012] : System initializing...
+[Sun Jun 17 22:05:51 2012] : Window initializing...
+[Sun Jun 17 22:05:51 2012] : Window successfully initialized
+[Sun Jun 17 22:05:51 2012] : DX11System initializing...
+[Sun Jun 17 22:05:51 2012] : Available video card memory 1248 MB
+[Sun Jun 17 22:05:51 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Sun Jun 17 22:05:51 2012] : DX11System successfully initialized
+[Sun Jun 17 22:05:51 2012] : System initialization successful
+ ------START------ 
+
+[Sun Jun 17 22:07:30 2012] : System initializing...
+[Sun Jun 17 22:07:30 2012] : Window initializing...
+[Sun Jun 17 22:07:30 2012] : Window successfully initialized
+[Sun Jun 17 22:07:30 2012] : DX11System initializing...
+[Sun Jun 17 22:07:30 2012] : Available video card memory 1248 MB
+[Sun Jun 17 22:07:30 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Sun Jun 17 22:07:30 2012] : DX11System successfully initialized
+[Sun Jun 17 22:07:31 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Sun Jun 17 22:07:56 2012] : System initializing...
+[Sun Jun 17 22:07:56 2012] : Window initializing...
+[Sun Jun 17 22:07:56 2012] : Window successfully initialized
+[Sun Jun 17 22:07:56 2012] : DX11System initializing...
+[Sun Jun 17 22:07:56 2012] : Available video card memory 1248 MB
+[Sun Jun 17 22:07:56 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Sun Jun 17 22:07:56 2012] : DX11System successfully initialized
+[Sun Jun 17 22:07:56 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Mon Jun 18 02:08:30 2012] : System initializing...
+[Mon Jun 18 02:08:30 2012] : Window initializing...
+[Mon Jun 18 02:08:30 2012] : Window successfully initialized
+[Mon Jun 18 02:08:30 2012] : DX11System initializing...
+[Mon Jun 18 02:08:30 2012] : Available video card memory 1248 MB
+[Mon Jun 18 02:08:30 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Mon Jun 18 02:08:30 2012] : DX11System successfully initialized
+[Mon Jun 18 02:08:31 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Mon Jun 18 16:47:56 2012] : System initializing...
+[Mon Jun 18 16:47:56 2012] : Window initializing...
+[Mon Jun 18 16:47:56 2012] : Window successfully initialized
+[Mon Jun 18 16:47:56 2012] : DX11System initializing...
+[Mon Jun 18 16:47:57 2012] : Available video card memory 1248 MB
+[Mon Jun 18 16:47:57 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Mon Jun 18 16:47:57 2012] : DX11System successfully initialized
+[Mon Jun 18 16:47:59 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Mon Jun 18 17:11:30 2012] : System initializing...
+[Mon Jun 18 17:11:30 2012] : Window initializing...
+[Mon Jun 18 17:11:30 2012] : Window successfully initialized
+[Mon Jun 18 17:11:30 2012] : DX11System initializing...
+[Mon Jun 18 17:11:30 2012] : Available video card memory 1248 MB
+[Mon Jun 18 17:11:30 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Mon Jun 18 17:11:30 2012] : DX11System successfully initialized
+[Mon Jun 18 17:11:31 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Mon Jun 18 17:12:10 2012] : System initializing...
+[Mon Jun 18 17:12:10 2012] : Window initializing...
+[Mon Jun 18 17:12:10 2012] : Window successfully initialized
+[Mon Jun 18 17:12:10 2012] : DX11System initializing...
+[Mon Jun 18 17:12:11 2012] : Available video card memory 1248 MB
+[Mon Jun 18 17:12:11 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Mon Jun 18 17:12:11 2012] : DX11System successfully initialized
+[Mon Jun 18 17:12:11 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Mon Jun 18 17:13:27 2012] : System initializing...
+[Mon Jun 18 17:13:27 2012] : Window initializing...
+[Mon Jun 18 17:13:27 2012] : Window successfully initialized
+[Mon Jun 18 17:13:27 2012] : DX11System initializing...
+[Mon Jun 18 17:13:27 2012] : Available video card memory 1248 MB
+[Mon Jun 18 17:13:27 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Mon Jun 18 17:13:27 2012] : DX11System successfully initialized
+[Mon Jun 18 17:13:28 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Mon Jun 18 17:13:28 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Mon Jun 18 17:14:52 2012] : System initializing...
+[Mon Jun 18 17:14:52 2012] : Window initializing...
+[Mon Jun 18 17:14:52 2012] : Window successfully initialized
+[Mon Jun 18 17:14:52 2012] : DX11System initializing...
+[Mon Jun 18 17:14:52 2012] : Available video card memory 1248 MB
+[Mon Jun 18 17:14:52 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Mon Jun 18 17:14:52 2012] : DX11System successfully initialized
+[Mon Jun 18 17:14:52 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Mon Jun 18 17:14:52 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Mon Jun 18 17:22:32 2012] : System initializing...
+[Mon Jun 18 17:22:32 2012] : Window initializing...
+[Mon Jun 18 17:22:32 2012] : Window successfully initialized
+[Mon Jun 18 17:22:32 2012] : DX11System initializing...
+[Mon Jun 18 17:22:32 2012] : Available video card memory 1248 MB
+[Mon Jun 18 17:22:32 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Mon Jun 18 17:22:32 2012] : DX11System successfully initialized
+[Mon Jun 18 17:22:32 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Mon Jun 18 17:22:32 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Mon Jun 18 17:24:44 2012] : System initializing...
+[Mon Jun 18 17:24:44 2012] : Window initializing...
+[Mon Jun 18 17:24:44 2012] : Window successfully initialized
+[Mon Jun 18 17:24:44 2012] : DX11System initializing...
+[Mon Jun 18 17:24:44 2012] : Available video card memory 1248 MB
+[Mon Jun 18 17:24:44 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Mon Jun 18 17:24:44 2012] : DX11System successfully initialized
+[Mon Jun 18 17:24:45 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Mon Jun 18 17:24:45 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Mon Jun 18 17:36:13 2012] : System initializing...
+[Mon Jun 18 17:36:13 2012] : Window initializing...
+[Mon Jun 18 17:36:13 2012] : Window successfully initialized
+[Mon Jun 18 17:36:13 2012] : DX11System initializing...
+[Mon Jun 18 17:36:13 2012] : Available video card memory 1248 MB
+[Mon Jun 18 17:36:13 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Mon Jun 18 17:36:13 2012] : DX11System successfully initialized
+[Mon Jun 18 17:36:14 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Mon Jun 18 17:36:14 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Mon Jun 18 17:36:29 2012] : System initializing...
+[Mon Jun 18 17:36:29 2012] : Window initializing...
+[Mon Jun 18 17:36:29 2012] : Window successfully initialized
+[Mon Jun 18 17:36:29 2012] : DX11System initializing...
+[Mon Jun 18 17:36:29 2012] : Available video card memory 1248 MB
+[Mon Jun 18 17:36:29 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Mon Jun 18 17:36:29 2012] : DX11System successfully initialized
+[Mon Jun 18 17:36:30 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Mon Jun 18 17:36:30 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Mon Jun 18 17:37:51 2012] : System initializing...
+[Mon Jun 18 17:37:51 2012] : Window initializing...
+[Mon Jun 18 17:37:51 2012] : Window successfully initialized
+[Mon Jun 18 17:37:51 2012] : DX11System initializing...
+[Mon Jun 18 17:37:51 2012] : Available video card memory 1248 MB
+[Mon Jun 18 17:37:51 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Mon Jun 18 17:37:51 2012] : DX11System successfully initialized
+[Mon Jun 18 17:37:51 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Mon Jun 18 17:37:51 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Mon Jun 18 17:38:00 2012] : System initializing...
+[Mon Jun 18 17:38:00 2012] : Window initializing...
+[Mon Jun 18 17:38:00 2012] : Window successfully initialized
+[Mon Jun 18 17:38:00 2012] : DX11System initializing...
+[Mon Jun 18 17:38:00 2012] : Available video card memory 1248 MB
+[Mon Jun 18 17:38:00 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Mon Jun 18 17:38:00 2012] : DX11System successfully initialized
+[Mon Jun 18 17:38:01 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Mon Jun 18 17:38:01 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Mon Jun 18 17:38:03 2012] : System initializing...
+[Mon Jun 18 17:38:03 2012] : Window initializing...
+[Mon Jun 18 17:38:03 2012] : Window successfully initialized
+[Mon Jun 18 17:38:03 2012] : DX11System initializing...
+[Mon Jun 18 17:38:03 2012] : Available video card memory 1248 MB
+[Mon Jun 18 17:38:03 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Mon Jun 18 17:38:03 2012] : DX11System successfully initialized
+[Mon Jun 18 17:38:03 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Mon Jun 18 17:38:03 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Mon Jun 18 17:38:09 2012] : System initializing...
+[Mon Jun 18 17:38:09 2012] : Window initializing...
+[Mon Jun 18 17:38:09 2012] : Window successfully initialized
+[Mon Jun 18 17:38:09 2012] : DX11System initializing...
+[Mon Jun 18 17:38:09 2012] : Available video card memory 1248 MB
+[Mon Jun 18 17:38:09 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Mon Jun 18 17:38:09 2012] : DX11System successfully initialized
+[Mon Jun 18 17:38:10 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Mon Jun 18 17:38:10 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Mon Jun 18 18:07:05 2012] : System initializing...
+[Mon Jun 18 18:07:05 2012] : Window initializing...
+[Mon Jun 18 18:07:05 2012] : Window successfully initialized
+[Mon Jun 18 18:07:05 2012] : DX11System initializing...
+[Mon Jun 18 18:07:05 2012] : Available video card memory 1248 MB
+[Mon Jun 18 18:07:05 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Mon Jun 18 18:07:05 2012] : DX11System successfully initialized
+[Mon Jun 18 18:07:05 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Mon Jun 18 18:07:05 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Mon Jun 18 18:07:13 2012] : System initializing...
+[Mon Jun 18 18:07:13 2012] : Window initializing...
+[Mon Jun 18 18:07:13 2012] : Window successfully initialized
+[Mon Jun 18 18:07:13 2012] : DX11System initializing...
+[Mon Jun 18 18:07:13 2012] : Available video card memory 1248 MB
+[Mon Jun 18 18:07:13 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Mon Jun 18 18:07:13 2012] : DX11System successfully initialized
+[Mon Jun 18 18:07:13 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Mon Jun 18 18:07:13 2012] : System initialization successful
+ ------START------ 
+
+[Tue Jun 19 14:55:18 2012] : System initializing...
+[Tue Jun 19 14:55:18 2012] : Window initializing...
+[Tue Jun 19 14:55:18 2012] : Window successfully initialized
+[Tue Jun 19 14:55:18 2012] : DX11System initializing...
+[Tue Jun 19 14:55:18 2012] : Available video card memory 1248 MB
+[Tue Jun 19 14:55:18 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Tue Jun 19 14:55:18 2012] : DX11System successfully initialized
+[Tue Jun 19 14:55:20 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Tue Jun 19 14:55:20 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Tue Jun 19 14:59:31 2012] : System initializing...
+[Tue Jun 19 14:59:31 2012] : Window initializing...
+[Tue Jun 19 14:59:31 2012] : Window successfully initialized
+[Tue Jun 19 14:59:31 2012] : DX11System initializing...
+[Tue Jun 19 14:59:31 2012] : Available video card memory 1248 MB
+[Tue Jun 19 14:59:31 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Tue Jun 19 14:59:31 2012] : DX11System successfully initialized
+[Tue Jun 19 14:59:31 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Tue Jun 19 14:59:31 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Tue Jun 19 15:00:11 2012] : System initializing...
+[Tue Jun 19 15:00:11 2012] : Window initializing...
+[Tue Jun 19 15:00:11 2012] : Window successfully initialized
+[Tue Jun 19 15:00:11 2012] : DX11System initializing...
+[Tue Jun 19 15:00:11 2012] : Available video card memory 1248 MB
+[Tue Jun 19 15:00:11 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Tue Jun 19 15:00:11 2012] : DX11System successfully initialized
+[Tue Jun 19 15:00:12 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Tue Jun 19 15:00:12 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Tue Jun 19 15:42:41 2012] : System initializing...
+[Tue Jun 19 15:42:41 2012] : Window initializing...
+[Tue Jun 19 15:42:41 2012] : Window successfully initialized
+[Tue Jun 19 15:42:41 2012] : DX11System initializing...
+[Tue Jun 19 15:42:41 2012] : Available video card memory 1248 MB
+[Tue Jun 19 15:42:41 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Tue Jun 19 15:42:41 2012] : DX11System successfully initialized
+[Tue Jun 19 15:42:41 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Tue Jun 19 15:42:41 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Tue Jun 19 15:52:32 2012] : System initializing...
+[Tue Jun 19 15:52:32 2012] : Window initializing...
+[Tue Jun 19 15:52:32 2012] : Window successfully initialized
+[Tue Jun 19 15:52:32 2012] : DX11System initializing...
+[Tue Jun 19 15:52:32 2012] : Available video card memory 1248 MB
+[Tue Jun 19 15:52:32 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Tue Jun 19 15:52:32 2012] : DX11System successfully initialized
+[Tue Jun 19 15:52:33 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Tue Jun 19 15:52:33 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Wed Jun 20 15:13:39 2012] : System initializing...
+[Wed Jun 20 15:13:39 2012] : Window initializing...
+[Wed Jun 20 15:13:39 2012] : Window successfully initialized
+[Wed Jun 20 15:13:39 2012] : DX11System initializing...
+[Wed Jun 20 15:13:39 2012] : Available video card memory 1248 MB
+[Wed Jun 20 15:13:39 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Wed Jun 20 15:13:39 2012] : DX11System successfully initialized
+[Wed Jun 20 15:13:40 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Wed Jun 20 15:13:40 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Wed Jun 20 15:14:28 2012] : System initializing...
+[Wed Jun 20 15:14:28 2012] : Window initializing...
+[Wed Jun 20 15:14:28 2012] : Window successfully initialized
+[Wed Jun 20 15:14:28 2012] : DX11System initializing...
+[Wed Jun 20 15:14:28 2012] : Available video card memory 1248 MB
+[Wed Jun 20 15:14:28 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Wed Jun 20 15:14:28 2012] : DX11System successfully initialized
+[Wed Jun 20 15:14:28 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Wed Jun 20 15:14:28 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Wed Jun 20 15:15:03 2012] : System initializing...
+[Wed Jun 20 15:15:03 2012] : Window initializing...
+[Wed Jun 20 15:15:03 2012] : Window successfully initialized
+[Wed Jun 20 15:15:03 2012] : DX11System initializing...
+[Wed Jun 20 15:15:03 2012] : Available video card memory 1248 MB
+[Wed Jun 20 15:15:03 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Wed Jun 20 15:15:03 2012] : DX11System successfully initialized
+[Wed Jun 20 15:15:04 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Wed Jun 20 15:15:04 2012] : System initialization successful
+ ------START------ 
+
+[Thu Jun 21 15:34:26 2012] : System initializing...
+[Thu Jun 21 15:34:26 2012] : Window initializing...
+[Thu Jun 21 15:34:26 2012] : Window successfully initialized
+[Thu Jun 21 15:34:26 2012] : DX11System initializing...
+[Thu Jun 21 15:34:26 2012] : Available video card memory 1248 MB
+[Thu Jun 21 15:34:26 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Thu Jun 21 15:34:26 2012] : DX11System successfully initialized
+[Thu Jun 21 15:34:31 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Thu Jun 21 15:34:31 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Mon Jun 25 01:50:17 2012] : System initializing...
+[Mon Jun 25 01:50:17 2012] : Window initializing...
+[Mon Jun 25 01:50:17 2012] : Window successfully initialized
+[Mon Jun 25 01:50:17 2012] : DX11System initializing...
+[Mon Jun 25 01:50:17 2012] : Available video card memory 1248 MB
+[Mon Jun 25 01:50:17 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Mon Jun 25 01:50:17 2012] : DX11System successfully initialized
+[Mon Jun 25 01:50:17 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Mon Jun 25 01:50:18 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Fri Oct 05 00:39:22 2012] : System initializing...
+[Fri Oct 05 00:39:22 2012] : Window initializing...
+[Fri Oct 05 00:39:22 2012] : Window successfully initialized
+[Fri Oct 05 00:39:22 2012] : DX11System initializing...
+[Fri Oct 05 00:39:22 2012] : Available video card memory 1233 MB
+[Fri Oct 05 00:39:22 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Fri Oct 05 00:39:22 2012] : DX11System successfully initialized
+[Fri Oct 05 00:39:23 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Fri Oct 05 00:39:23 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Fri Oct 05 00:39:38 2012] : System initializing...
+[Fri Oct 05 00:39:38 2012] : Window initializing...
+[Fri Oct 05 00:39:38 2012] : Window successfully initialized
+[Fri Oct 05 00:39:38 2012] : DX11System initializing...
+[Fri Oct 05 00:39:38 2012] : Available video card memory 1233 MB
+[Fri Oct 05 00:39:38 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Fri Oct 05 00:39:38 2012] : DX11System successfully initialized
+[Fri Oct 05 00:39:39 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Fri Oct 05 00:39:39 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Fri Oct 05 00:41:37 2012] : System initializing...
+[Fri Oct 05 00:41:37 2012] : Window initializing...
+[Fri Oct 05 00:41:37 2012] : Window successfully initialized
+[Fri Oct 05 00:41:37 2012] : DX11System initializing...
+[Fri Oct 05 00:41:37 2012] : Available video card memory 1233 MB
+[Fri Oct 05 00:41:37 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Fri Oct 05 00:41:37 2012] : DX11System successfully initialized
+[Fri Oct 05 00:41:37 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Fri Oct 05 00:41:37 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Fri Oct 05 22:51:42 2012] : System initializing...
+[Fri Oct 05 22:51:42 2012] : Window initializing...
+[Fri Oct 05 22:51:42 2012] : Window successfully initialized
+[Fri Oct 05 22:51:42 2012] : DX11System initializing...
+[Fri Oct 05 22:51:42 2012] : Available video card memory 1233 MB
+[Fri Oct 05 22:51:42 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Fri Oct 05 22:51:42 2012] : DX11System successfully initialized
+[Fri Oct 05 22:51:43 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Fri Oct 05 22:51:43 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Thu Oct 11 21:01:49 2012] : System initializing...
+[Thu Oct 11 21:01:49 2012] : Window initializing...
+[Thu Oct 11 21:01:49 2012] : Window successfully initialized
+[Thu Oct 11 21:01:49 2012] : DX11System initializing...
+[Thu Oct 11 21:01:49 2012] : Available video card memory 1233 MB
+[Thu Oct 11 21:01:49 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Thu Oct 11 21:01:49 2012] : DX11System successfully initialized
+[Thu Oct 11 21:01:50 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Thu Oct 11 21:01:50 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Fri Oct 19 20:41:40 2012] : System initializing...
+[Fri Oct 19 20:41:40 2012] : Window initializing...
+[Fri Oct 19 20:41:40 2012] : Window successfully initialized
+[Fri Oct 19 20:41:40 2012] : DX11System initializing...
+[Fri Oct 19 20:41:40 2012] : Available video card memory 1233 MB
+[Fri Oct 19 20:41:40 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Fri Oct 19 20:41:40 2012] : DX11System successfully initialized
+[Fri Oct 19 20:41:42 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Fri Oct 19 20:41:42 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Thu Oct 25 20:50:04 2012] : System initializing...
+[Thu Oct 25 20:50:04 2012] : Window initializing...
+[Thu Oct 25 20:50:04 2012] : Window successfully initialized
+[Thu Oct 25 20:50:04 2012] : DX11System initializing...
+[Thu Oct 25 20:50:04 2012] : Available video card memory 1233 MB
+[Thu Oct 25 20:50:04 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Thu Oct 25 20:50:04 2012] : DX11System successfully initialized
+[Thu Oct 25 20:50:05 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Thu Oct 25 20:50:05 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Thu Oct 25 23:47:55 2012] : System initializing...
+[Thu Oct 25 23:47:55 2012] : Window initializing...
+[Thu Oct 25 23:47:55 2012] : Window successfully initialized
+[Thu Oct 25 23:47:55 2012] : DX11System initializing...
+[Thu Oct 25 23:47:55 2012] : Available video card memory 1233 MB
+[Thu Oct 25 23:47:55 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Thu Oct 25 23:47:55 2012] : DX11System successfully initialized
+[Thu Oct 25 23:47:55 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Thu Oct 25 23:47:55 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Thu Oct 25 23:48:39 2012] : System initializing...
+[Thu Oct 25 23:48:39 2012] : Window initializing...
+[Thu Oct 25 23:48:39 2012] : Window successfully initialized
+[Thu Oct 25 23:48:39 2012] : DX11System initializing...
+[Thu Oct 25 23:48:39 2012] : Available video card memory 1233 MB
+[Thu Oct 25 23:48:39 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Thu Oct 25 23:48:39 2012] : DX11System successfully initialized
+[Thu Oct 25 23:48:40 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Thu Oct 25 23:48:40 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Thu Oct 25 23:48:50 2012] : System initializing...
+[Thu Oct 25 23:48:50 2012] : Window initializing...
+[Thu Oct 25 23:48:50 2012] : Window successfully initialized
+[Thu Oct 25 23:48:50 2012] : DX11System initializing...
+[Thu Oct 25 23:48:50 2012] : Available video card memory 1233 MB
+[Thu Oct 25 23:48:50 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Thu Oct 25 23:48:50 2012] : DX11System successfully initialized
+[Thu Oct 25 23:48:50 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Thu Oct 25 23:48:50 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Thu Oct 25 23:48:59 2012] : System initializing...
+[Thu Oct 25 23:48:59 2012] : Window initializing...
+[Thu Oct 25 23:48:59 2012] : Window successfully initialized
+[Thu Oct 25 23:48:59 2012] : DX11System initializing...
+[Thu Oct 25 23:48:59 2012] : Available video card memory 1233 MB
+[Thu Oct 25 23:48:59 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Thu Oct 25 23:48:59 2012] : DX11System successfully initialized
+[Thu Oct 25 23:48:59 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Thu Oct 25 23:48:59 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Thu Oct 25 23:50:27 2012] : System initializing...
+[Thu Oct 25 23:50:27 2012] : Window initializing...
+[Thu Oct 25 23:50:27 2012] : Window successfully initialized
+[Thu Oct 25 23:50:27 2012] : DX11System initializing...
+[Thu Oct 25 23:50:27 2012] : Available video card memory 1233 MB
+[Thu Oct 25 23:50:27 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Thu Oct 25 23:50:27 2012] : DX11System successfully initialized
+[Thu Oct 25 23:50:28 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Thu Oct 25 23:50:28 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Thu Oct 25 23:53:27 2012] : System initializing...
+[Thu Oct 25 23:53:27 2012] : Window initializing...
+[Thu Oct 25 23:53:27 2012] : Window successfully initialized
+[Thu Oct 25 23:53:27 2012] : DX11System initializing...
+[Thu Oct 25 23:53:27 2012] : Available video card memory 1233 MB
+[Thu Oct 25 23:53:27 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Thu Oct 25 23:53:27 2012] : DX11System successfully initialized
+[Thu Oct 25 23:53:28 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Thu Oct 25 23:53:28 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Thu Oct 25 23:54:13 2012] : System initializing...
+[Thu Oct 25 23:54:13 2012] : Window initializing...
+[Thu Oct 25 23:54:13 2012] : Window successfully initialized
+[Thu Oct 25 23:54:13 2012] : DX11System initializing...
+[Thu Oct 25 23:54:13 2012] : Available video card memory 1233 MB
+[Thu Oct 25 23:54:13 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Thu Oct 25 23:54:13 2012] : DX11System successfully initialized
+[Thu Oct 25 23:54:14 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Thu Oct 25 23:54:14 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Thu Oct 25 23:54:29 2012] : System initializing...
+[Thu Oct 25 23:54:29 2012] : Window initializing...
+[Thu Oct 25 23:54:29 2012] : Window successfully initialized
+[Thu Oct 25 23:54:29 2012] : DX11System initializing...
+[Thu Oct 25 23:54:29 2012] : Available video card memory 1233 MB
+[Thu Oct 25 23:54:29 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Thu Oct 25 23:54:29 2012] : DX11System successfully initialized
+[Thu Oct 25 23:54:30 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Thu Oct 25 23:54:30 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Thu Oct 25 23:54:40 2012] : System initializing...
+[Thu Oct 25 23:54:40 2012] : Window initializing...
+[Thu Oct 25 23:54:40 2012] : Window successfully initialized
+[Thu Oct 25 23:54:40 2012] : DX11System initializing...
+[Thu Oct 25 23:54:40 2012] : Available video card memory 1233 MB
+[Thu Oct 25 23:54:40 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Thu Oct 25 23:54:40 2012] : DX11System successfully initialized
+[Thu Oct 25 23:54:41 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Thu Oct 25 23:54:41 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Thu Oct 25 23:55:41 2012] : System initializing...
+[Thu Oct 25 23:55:41 2012] : Window initializing...
+[Thu Oct 25 23:55:41 2012] : Window successfully initialized
+[Thu Oct 25 23:55:41 2012] : DX11System initializing...
+[Thu Oct 25 23:55:41 2012] : Available video card memory 1233 MB
+[Thu Oct 25 23:55:41 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Thu Oct 25 23:55:41 2012] : DX11System successfully initialized
+[Thu Oct 25 23:55:42 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Thu Oct 25 23:55:42 2012] : System initialization successful
+ ------START------ 
+
+[Thu Oct 25 23:58:42 2012] : System initializing...
+[Thu Oct 25 23:58:42 2012] : Window initializing...
+[Thu Oct 25 23:58:42 2012] : Window successfully initialized
+[Thu Oct 25 23:58:42 2012] : DX11System initializing...
+[Thu Oct 25 23:58:42 2012] : Available video card memory 1233 MB
+[Thu Oct 25 23:58:42 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Thu Oct 25 23:58:42 2012] : DX11System successfully initialized
+[Thu Oct 25 23:58:43 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Thu Oct 25 23:58:43 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Thu Oct 25 23:59:12 2012] : System initializing...
+[Thu Oct 25 23:59:12 2012] : Window initializing...
+[Thu Oct 25 23:59:12 2012] : Window successfully initialized
+[Thu Oct 25 23:59:12 2012] : DX11System initializing...
+[Thu Oct 25 23:59:12 2012] : Available video card memory 1233 MB
+[Thu Oct 25 23:59:12 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Thu Oct 25 23:59:12 2012] : DX11System successfully initialized
+[Thu Oct 25 23:59:12 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Thu Oct 25 23:59:12 2012] : System initialization successful
+ ------START------ 
+
+[Fri Oct 26 00:01:02 2012] : System initializing...
+[Fri Oct 26 00:01:02 2012] : Window initializing...
+[Fri Oct 26 00:01:02 2012] : Window successfully initialized
+[Fri Oct 26 00:01:02 2012] : DX11System initializing...
+[Fri Oct 26 00:01:02 2012] : Available video card memory 1233 MB
+[Fri Oct 26 00:01:02 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Fri Oct 26 00:01:02 2012] : DX11System successfully initialized
+[Fri Oct 26 00:01:03 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Fri Oct 26 00:01:03 2012] : System initialization successful
+ ------START------ 
+
+[Fri Oct 26 00:08:06 2012] : System initializing...
+[Fri Oct 26 00:08:06 2012] : Window initializing...
+[Fri Oct 26 00:08:06 2012] : Window successfully initialized
+[Fri Oct 26 00:08:06 2012] : DX11System initializing...
+[Fri Oct 26 00:08:06 2012] : Available video card memory 1233 MB
+[Fri Oct 26 00:08:06 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Fri Oct 26 00:08:06 2012] : DX11System successfully initialized
+[Fri Oct 26 00:08:06 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Fri Oct 26 00:08:06 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Fri Oct 26 00:12:09 2012] : System initializing...
+[Fri Oct 26 00:12:09 2012] : Window initializing...
+[Fri Oct 26 00:12:09 2012] : Window successfully initialized
+[Fri Oct 26 00:12:09 2012] : DX11System initializing...
+[Fri Oct 26 00:12:09 2012] : Available video card memory 1233 MB
+[Fri Oct 26 00:12:09 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Fri Oct 26 00:12:09 2012] : DX11System successfully initialized
+[Fri Oct 26 00:12:10 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Fri Oct 26 00:12:10 2012] : System initialization successful
+ ------START------ 
+
+[Fri Oct 26 00:13:18 2012] : System initializing...
+[Fri Oct 26 00:13:18 2012] : Window initializing...
+[Fri Oct 26 00:13:18 2012] : Window successfully initialized
+[Fri Oct 26 00:13:18 2012] : DX11System initializing...
+[Fri Oct 26 00:13:18 2012] : Available video card memory 1233 MB
+[Fri Oct 26 00:13:18 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Fri Oct 26 00:13:18 2012] : DX11System successfully initialized
+[Fri Oct 26 00:13:19 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Fri Oct 26 00:13:19 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Fri Oct 26 00:15:28 2012] : System initializing...
+[Fri Oct 26 00:15:28 2012] : Window initializing...
+[Fri Oct 26 00:15:28 2012] : Window successfully initialized
+[Fri Oct 26 00:15:28 2012] : DX11System initializing...
+[Fri Oct 26 00:15:28 2012] : Available video card memory 1233 MB
+[Fri Oct 26 00:15:28 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Fri Oct 26 00:15:28 2012] : DX11System successfully initialized
+[Fri Oct 26 00:15:29 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Fri Oct 26 00:15:29 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Fri Oct 26 00:15:54 2012] : System initializing...
+[Fri Oct 26 00:15:54 2012] : Window initializing...
+[Fri Oct 26 00:15:54 2012] : Window successfully initialized
+[Fri Oct 26 00:15:54 2012] : DX11System initializing...
+[Fri Oct 26 00:15:54 2012] : Available video card memory 1233 MB
+[Fri Oct 26 00:15:54 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Fri Oct 26 00:15:54 2012] : DX11System successfully initialized
+[Fri Oct 26 00:15:54 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Fri Oct 26 00:15:54 2012] : System initialization successful
+ ------START------ 
+
+[Fri Oct 26 00:26:27 2012] : System initializing...
+[Fri Oct 26 00:26:27 2012] : Window initializing...
+[Fri Oct 26 00:26:27 2012] : Window successfully initialized
+[Fri Oct 26 00:26:27 2012] : DX11System initializing...
+[Fri Oct 26 00:26:27 2012] : Available video card memory 1233 MB
+[Fri Oct 26 00:26:27 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Fri Oct 26 00:26:27 2012] : DX11System successfully initialized
+[Fri Oct 26 00:26:27 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Fri Oct 26 00:26:27 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Fri Oct 26 00:30:27 2012] : System initializing...
+[Fri Oct 26 00:30:27 2012] : Window initializing...
+[Fri Oct 26 00:30:27 2012] : Window successfully initialized
+[Fri Oct 26 00:30:27 2012] : DX11System initializing...
+[Fri Oct 26 00:30:27 2012] : Available video card memory 1233 MB
+[Fri Oct 26 00:30:27 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Fri Oct 26 00:30:27 2012] : DX11System successfully initialized
+[Fri Oct 26 00:30:27 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Fri Oct 26 00:30:27 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Sat Oct 27 23:23:00 2012] : System initializing...
+[Sat Oct 27 23:23:00 2012] : Window initializing...
+[Sat Oct 27 23:23:00 2012] : Window successfully initialized
+[Sat Oct 27 23:23:00 2012] : DX11System initializing...
+[Sat Oct 27 23:23:00 2012] : Available video card memory 1233 MB
+[Sat Oct 27 23:23:00 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Sat Oct 27 23:23:00 2012] : DX11System successfully initialized
+[Sat Oct 27 23:23:01 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Sat Oct 27 23:23:01 2012] : System initialization successful
+ ------START------ 
+
+[Sat Oct 27 23:24:16 2012] : System initializing...
+[Sat Oct 27 23:24:16 2012] : Window initializing...
+[Sat Oct 27 23:24:16 2012] : Window successfully initialized
+[Sat Oct 27 23:24:16 2012] : DX11System initializing...
+[Sat Oct 27 23:24:17 2012] : Available video card memory 1233 MB
+[Sat Oct 27 23:24:17 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Sat Oct 27 23:24:17 2012] : DX11System successfully initialized
+[Sat Oct 27 23:24:17 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Sat Oct 27 23:24:17 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Sat Oct 27 23:27:26 2012] : System initializing...
+[Sat Oct 27 23:27:26 2012] : Window initializing...
+[Sat Oct 27 23:27:26 2012] : Window successfully initialized
+[Sat Oct 27 23:27:26 2012] : DX11System initializing...
+[Sat Oct 27 23:27:26 2012] : Available video card memory 1233 MB
+[Sat Oct 27 23:27:26 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Sat Oct 27 23:27:26 2012] : DX11System successfully initialized
+[Sat Oct 27 23:27:27 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Sat Oct 27 23:27:27 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Thu Nov 01 22:47:46 2012] : System initializing...
+[Thu Nov 01 22:47:46 2012] : Window initializing...
+[Thu Nov 01 22:47:46 2012] : Window successfully initialized
+[Thu Nov 01 22:47:46 2012] : DX11System initializing...
+[Thu Nov 01 22:47:46 2012] : Available video card memory 1233 MB
+[Thu Nov 01 22:47:46 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Thu Nov 01 22:47:46 2012] : DX11System successfully initialized
+[Thu Nov 01 22:47:46 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Thu Nov 01 22:47:47 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Thu Nov 01 22:48:27 2012] : System initializing...
+[Thu Nov 01 22:48:27 2012] : Window initializing...
+[Thu Nov 01 22:48:27 2012] : Window successfully initialized
+[Thu Nov 01 22:48:27 2012] : DX11System initializing...
+[Thu Nov 01 22:48:27 2012] : Available video card memory 1233 MB
+[Thu Nov 01 22:48:27 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Thu Nov 01 22:48:27 2012] : DX11System successfully initialized
+[Thu Nov 01 22:48:27 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Thu Nov 01 22:48:27 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Sat Nov 03 22:09:48 2012] : System initializing...
+[Sat Nov 03 22:09:48 2012] : Window initializing...
+[Sat Nov 03 22:09:48 2012] : Window successfully initialized
+[Sat Nov 03 22:09:48 2012] : DX11System initializing...
+[Sat Nov 03 22:09:48 2012] : Available video card memory 1233 MB
+[Sat Nov 03 22:09:48 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Sat Nov 03 22:09:48 2012] : DX11System successfully initialized
+[Sat Nov 03 22:09:49 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Sat Nov 03 22:09:49 2012] : System initialization successful
+[Sat Nov 03 22:09:49 2012] : [ERROR] LightShader::InitializeShader could not create vertex shader
+[Sat Nov 03 22:09:49 2012] : [ERROR] LightShader::Initialize could not initialize Texture Shaders
+[Sat Nov 03 22:09:49 2012] : [ERROR] TestScene::Initialize Light shader could not be initialized
+
+ -------END------- 
+
+ ------START------ 
+
+[Sat Nov 03 22:10:38 2012] : System initializing...
+[Sat Nov 03 22:10:38 2012] : Window initializing...
+[Sat Nov 03 22:10:38 2012] : Window successfully initialized
+[Sat Nov 03 22:10:38 2012] : DX11System initializing...
+[Sat Nov 03 22:10:38 2012] : Available video card memory 1233 MB
+[Sat Nov 03 22:10:38 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Sat Nov 03 22:10:38 2012] : DX11System successfully initialized
+[Sat Nov 03 22:10:38 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Sat Nov 03 22:10:38 2012] : System initialization successful
+ ------START------ 
+
+[Sat Nov 03 22:12:15 2012] : System initializing...
+[Sat Nov 03 22:12:15 2012] : Window initializing...
+[Sat Nov 03 22:12:15 2012] : Window successfully initialized
+[Sat Nov 03 22:12:15 2012] : DX11System initializing...
+[Sat Nov 03 22:12:15 2012] : Available video card memory 1233 MB
+[Sat Nov 03 22:12:15 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Sat Nov 03 22:12:15 2012] : DX11System successfully initialized
+[Sat Nov 03 22:12:16 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Sat Nov 03 22:12:16 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Sat Nov 03 22:46:11 2012] : System initializing...
+[Sat Nov 03 22:46:11 2012] : Window initializing...
+[Sat Nov 03 22:46:11 2012] : Window successfully initialized
+[Sat Nov 03 22:46:11 2012] : DX11System initializing...
+[Sat Nov 03 22:46:12 2012] : Available video card memory 64 MB
+[Sat Nov 03 22:46:12 2012] : Video Card Name: Intel(R) HD Graphics Family
+[Sat Nov 03 22:46:12 2012] : [ERROR] DX11System::Initialize could not create SwapChain, Direct3D device and context
+[Sat Nov 03 22:46:12 2012] : [ERROR] Graphics::Initialize DX11 could not be initialized
+[Sat Nov 03 22:46:12 2012] : [ERROR] System::Initialize Graphics could not be initialized
+
+ -------END------- 
+
+ ------START------ 
+
+[Sat Nov 03 22:50:38 2012] : System initializing...
+[Sat Nov 03 22:50:38 2012] : Window initializing...
+[Sat Nov 03 22:50:38 2012] : Window successfully initialized
+[Sat Nov 03 22:50:38 2012] : DX11System initializing...
+[Sat Nov 03 22:50:38 2012] : Available video card memory 64 MB
+[Sat Nov 03 22:50:38 2012] : Video Card Name: Intel(R) HD Graphics Family
+[Sat Nov 03 22:50:38 2012] : [ERROR] DX11System::Initialize could not create SwapChain, Direct3D device and context
+[Sat Nov 03 22:50:38 2012] : [ERROR] Graphics::Initialize DX11 could not be initialized
+[Sat Nov 03 22:50:38 2012] : [ERROR] System::Initialize Graphics could not be initialized
+
+ -------END------- 
+
+ ------START------ 
+
+[Sat Nov 03 22:54:16 2012] : System initializing...
+[Sat Nov 03 22:54:16 2012] : Window initializing...
+[Sat Nov 03 22:54:16 2012] : Window successfully initialized
+[Sat Nov 03 22:54:16 2012] : DX11System initializing...
+[Sat Nov 03 22:54:16 2012] : Available video card memory 64 MB
+[Sat Nov 03 22:54:16 2012] : Video Card Name: Intel(R) HD Graphics Family
+ ------START------ 
+
+[Sat Nov 03 22:58:02 2012] : System initializing...
+[Sat Nov 03 22:58:03 2012] : Window initializing...
+[Sat Nov 03 22:58:03 2012] : Window successfully initialized
+[Sat Nov 03 22:58:04 2012] : DX11System initializing...
+[Sat Nov 03 22:58:04 2012] : Available video card memory 64 MB
+[Sat Nov 03 22:58:04 2012] : Video Card Name: Intel(R) HD Graphics Family
+[Sat Nov 03 22:58:04 2012] : [ERROR] DX11System::Initialize could not create SwapChain, Direct3D device and context
+[Sat Nov 03 22:58:05 2012] : [ERROR] Graphics::Initialize DX11 could not be initialized
+[Sat Nov 03 22:58:05 2012] : [ERROR] System::Initialize Graphics could not be initialized
+
+ -------END------- 
+
+ ------START------ 
+
+[Sat Nov 03 22:59:32 2012] : System initializing...
+[Sat Nov 03 22:59:32 2012] : Window initializing...
+[Sat Nov 03 22:59:32 2012] : Window successfully initialized
+[Sat Nov 03 22:59:32 2012] : DX11System initializing...
+[Sat Nov 03 22:59:32 2012] : Available video card memory 64 MB
+[Sat Nov 03 22:59:32 2012] : Video Card Name: Intel(R) HD Graphics Family
+[Sat Nov 03 22:59:32 2012] : [ERROR] DX11System::Initialize could not create SwapChain, Direct3D device and context
+[Sat Nov 03 22:59:32 2012] : [ERROR] Graphics::Initialize DX11 could not be initialized
+[Sat Nov 03 22:59:32 2012] : [ERROR] System::Initialize Graphics could not be initialized
+
+ -------END------- 
+
+ ------START------ 
+
+[Sat Nov 03 23:01:30 2012] : System initializing...
+[Sat Nov 03 23:01:30 2012] : Window initializing...
+[Sat Nov 03 23:01:30 2012] : Window successfully initialized
+[Sat Nov 03 23:01:30 2012] : DX11System initializing...
+[Sat Nov 03 23:01:30 2012] : Available video card memory 64 MB
+[Sat Nov 03 23:01:30 2012] : Video Card Name: Intel(R) HD Graphics Family
+[Sat Nov 03 23:01:30 2012] : [ERROR] DX11System::Initialize could not create SwapChain, Direct3D device and context
+[Sat Nov 03 23:01:30 2012] : [ERROR] Graphics::Initialize DX11 could not be initialized
+[Sat Nov 03 23:01:30 2012] : [ERROR] System::Initialize Graphics could not be initialized
+
+ -------END------- 
+
+ ------START------ 
+
+[Sat Nov 03 23:05:44 2012] : System initializing...
+[Sat Nov 03 23:05:44 2012] : Window initializing...
+[Sat Nov 03 23:05:44 2012] : Window successfully initialized
+[Sat Nov 03 23:05:44 2012] : DX11System initializing...
+[Sat Nov 03 23:05:44 2012] : Available video card memory 64 MB
+[Sat Nov 03 23:05:44 2012] : Video Card Name: Intel(R) HD Graphics Family
+[Sat Nov 03 23:05:45 2012] : [ERROR] DX11System::Initialize could not create SwapChain, Direct3D device and context
+[Sat Nov 03 23:05:45 2012] : [ERROR] Graphics::Initialize DX11 could not be initialized
+[Sat Nov 03 23:05:45 2012] : [ERROR] System::Initialize Graphics could not be initialized
+
+ -------END------- 
+
+ ------START------ 
+
+[Sat Nov 03 23:06:27 2012] : System initializing...
+[Sat Nov 03 23:06:27 2012] : Window initializing...
+[Sat Nov 03 23:06:27 2012] : Window successfully initialized
+[Sat Nov 03 23:06:27 2012] : DX11System initializing...
+[Sat Nov 03 23:06:27 2012] : Available video card memory 64 MB
+[Sat Nov 03 23:06:27 2012] : Video Card Name: Intel(R) HD Graphics Family
+ ------START------ 
+
+[Sat Nov 03 23:10:19 2012] : System initializing...
+[Sat Nov 03 23:10:19 2012] : Window initializing...
+[Sat Nov 03 23:10:19 2012] : Window successfully initialized
+[Sat Nov 03 23:10:19 2012] : DX11System initializing...
+[Sat Nov 03 23:10:19 2012] : Available video card memory 64 MB
+[Sat Nov 03 23:10:19 2012] : Video Card Name: Intel(R) HD Graphics Family
+ ------START------ 
+
+[Sat Nov 03 23:11:09 2012] : System initializing...
+[Sat Nov 03 23:11:09 2012] : Window initializing...
+[Sat Nov 03 23:11:09 2012] : Window successfully initialized
+[Sat Nov 03 23:11:09 2012] : DX11System initializing...
+[Sat Nov 03 23:11:09 2012] : Available video card memory 64 MB
+[Sat Nov 03 23:11:09 2012] : Video Card Name: Intel(R) HD Graphics Family
+ ------START------ 
+
+[Sat Nov 03 23:13:53 2012] : System initializing...
+[Sat Nov 03 23:13:53 2012] : Window initializing...
+[Sat Nov 03 23:13:53 2012] : Window successfully initialized
+[Sat Nov 03 23:13:53 2012] : DX11System initializing...
+[Sat Nov 03 23:13:53 2012] : Available video card memory 64 MB
+[Sat Nov 03 23:13:53 2012] : Video Card Name: Intel(R) HD Graphics Family
+[Sat Nov 03 23:13:53 2012] : WTF
+[Sat Nov 03 23:13:53 2012] : [ERROR] DX11System::Initialize could not create SwapChain, Direct3D device and context
+[Sat Nov 03 23:13:53 2012] : [ERROR] Graphics::Initialize DX11 could not be initialized
+[Sat Nov 03 23:13:53 2012] : [ERROR] System::Initialize Graphics could not be initialized
+
+ -------END------- 
+
+ ------START------ 
+
+[Sat Nov 03 23:18:51 2012] : System initializing...
+[Sat Nov 03 23:18:51 2012] : Window initializing...
+[Sat Nov 03 23:18:51 2012] : Window successfully initialized
+[Sat Nov 03 23:18:51 2012] : DX11System initializing...
+[Sat Nov 03 23:18:51 2012] : Available video card memory 64 MB
+[Sat Nov 03 23:18:51 2012] : Video Card Name: Intel(R) HD Graphics Family
+[Sat Nov 03 23:18:51 2012] : WTF
+[Sat Nov 03 23:18:51 2012] : [ERROR] DX11System::Initialize could not create SwapChain, Direct3D device and context
+[Sat Nov 03 23:18:51 2012] : [ERROR] Graphics::Initialize DX11 could not be initialized
+[Sat Nov 03 23:18:51 2012] : [ERROR] System::Initialize Graphics could not be initialized
+
+ -------END------- 
+
+ ------START------ 
+
+[Sat Nov 03 23:24:04 2012] : System initializing...
+[Sat Nov 03 23:24:04 2012] : Window initializing...
+[Sat Nov 03 23:24:04 2012] : Window successfully initialized
+[Sat Nov 03 23:24:04 2012] : DX11System initializing...
+[Sat Nov 03 23:24:04 2012] : Available video card memory 64 MB
+[Sat Nov 03 23:24:04 2012] : Video Card Name: Intel(R) HD Graphics Family
+ ------START------ 
+
+[Sat Nov 03 23:26:10 2012] : System initializing...
+[Sat Nov 03 23:26:10 2012] : Window initializing...
+[Sat Nov 03 23:26:10 2012] : Window successfully initialized
+[Sat Nov 03 23:26:10 2012] : DX11System initializing...
+[Sat Nov 03 23:26:10 2012] : Available video card memory 64 MB
+[Sat Nov 03 23:26:10 2012] : Video Card Name: Intel(R) HD Graphics Family
+ ------START------ 
+
+[Sat Nov 03 23:28:50 2012] : System initializing...
+[Sat Nov 03 23:28:50 2012] : Window initializing...
+[Sat Nov 03 23:28:50 2012] : Window successfully initialized
+[Sat Nov 03 23:28:50 2012] : DX11System initializing...
+[Sat Nov 03 23:28:50 2012] : Available video card memory 64 MB
+[Sat Nov 03 23:28:50 2012] : Video Card Name: Intel(R) HD Graphics Family
+ ------START------ 
+
+[Sat Nov 03 23:29:32 2012] : System initializing...
+[Sat Nov 03 23:29:32 2012] : Window initializing...
+[Sat Nov 03 23:29:32 2012] : Window successfully initialized
+[Sat Nov 03 23:29:32 2012] : DX11System initializing...
+[Sat Nov 03 23:29:32 2012] : Available video card memory 64 MB
+[Sat Nov 03 23:29:32 2012] : Video Card Name: Intel(R) HD Graphics Family
+ ------START------ 
+
+[Sat Nov 03 23:31:44 2012] : System initializing...
+[Sat Nov 03 23:31:44 2012] : Window initializing...
+[Sat Nov 03 23:31:44 2012] : Window successfully initialized
+[Sat Nov 03 23:31:44 2012] : DX11System initializing...
+[Sat Nov 03 23:31:44 2012] : Available video card memory 1233 MB
+[Sat Nov 03 23:31:44 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Sat Nov 03 23:31:45 2012] : DX11System successfully initialized
+[Sat Nov 03 23:31:45 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Sat Nov 03 23:31:45 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Sun Nov 11 13:47:48 2012] : System initializing...
+[Sun Nov 11 13:47:48 2012] : Window initializing...
+[Sun Nov 11 13:47:48 2012] : Window successfully initialized
+[Sun Nov 11 13:47:48 2012] : DX11System initializing...
+[Sun Nov 11 13:47:48 2012] : Available video card memory 1233 MB
+[Sun Nov 11 13:47:48 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Sun Nov 11 13:47:48 2012] : DX11System successfully initialized
+[Sun Nov 11 13:47:48 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Sun Nov 11 13:47:49 2012] : System initialization successful
+ ------START------ 
+
+[Sun Nov 11 13:48:18 2012] : System initializing...
+[Sun Nov 11 13:48:18 2012] : Window initializing...
+[Sun Nov 11 13:48:18 2012] : Window successfully initialized
+[Sun Nov 11 13:48:18 2012] : DX11System initializing...
+[Sun Nov 11 13:48:18 2012] : Available video card memory 1233 MB
+[Sun Nov 11 13:48:18 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Sun Nov 11 13:48:18 2012] : DX11System successfully initialized
+[Sun Nov 11 13:48:18 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Sun Nov 11 13:48:18 2012] : System initialization successful
+ ------START------ 
+
+[Sun Nov 11 13:53:43 2012] : System initializing...
+[Sun Nov 11 13:53:43 2012] : Window initializing...
+[Sun Nov 11 13:53:43 2012] : Window successfully initialized
+[Sun Nov 11 13:53:43 2012] : DX11System initializing...
+[Sun Nov 11 13:53:43 2012] : Available video card memory 1233 MB
+[Sun Nov 11 13:53:43 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Sun Nov 11 13:53:43 2012] : DX11System successfully initialized
+[Sun Nov 11 13:53:44 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Sun Nov 11 13:53:44 2012] : System initialization successful
+ ------START------ 
+
+[Thu Nov 15 20:45:51 2012] : System initializing...
+[Thu Nov 15 20:45:51 2012] : Window initializing...
+[Thu Nov 15 20:45:51 2012] : Window successfully initialized
+[Thu Nov 15 20:45:51 2012] : DX11System initializing...
+[Thu Nov 15 20:45:51 2012] : Available video card memory 1233 MB
+[Thu Nov 15 20:45:51 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Thu Nov 15 20:45:51 2012] : DX11System successfully initialized
+ ------START------ 
+
+[Thu Nov 15 20:46:36 2012] : System initializing...
+[Thu Nov 15 20:46:36 2012] : Window initializing...
+[Thu Nov 15 20:46:36 2012] : Window successfully initialized
+[Thu Nov 15 20:46:36 2012] : DX11System initializing...
+[Thu Nov 15 20:46:36 2012] : Available video card memory 1233 MB
+[Thu Nov 15 20:46:36 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Thu Nov 15 20:46:36 2012] : DX11System successfully initialized
+ ------START------ 
+
+[Thu Nov 15 20:47:41 2012] : System initializing...
+[Thu Nov 15 20:47:41 2012] : Window initializing...
+[Thu Nov 15 20:47:41 2012] : Window successfully initialized
+[Thu Nov 15 20:47:41 2012] : DX11System initializing...
+[Thu Nov 15 20:47:41 2012] : Available video card memory 1233 MB
+[Thu Nov 15 20:47:41 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Thu Nov 15 20:47:41 2012] : DX11System successfully initialized
+[Thu Nov 15 20:47:44 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Thu Nov 15 20:47:44 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Fri Nov 16 18:04:01 2012] : System initializing...
+[Fri Nov 16 18:04:01 2012] : Window initializing...
+[Fri Nov 16 18:04:01 2012] : Window successfully initialized
+[Fri Nov 16 18:04:01 2012] : DX11System initializing...
+[Fri Nov 16 18:04:01 2012] : Available video card memory 1233 MB
+[Fri Nov 16 18:04:01 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Fri Nov 16 18:04:01 2012] : DX11System successfully initialized
+[Fri Nov 16 18:04:02 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Fri Nov 16 18:04:02 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Fri Nov 16 18:11:10 2012] : System initializing...
+[Fri Nov 16 18:11:10 2012] : Window initializing...
+[Fri Nov 16 18:11:10 2012] : Window successfully initialized
+[Fri Nov 16 18:11:10 2012] : DX11System initializing...
+[Fri Nov 16 18:11:10 2012] : Available video card memory 1233 MB
+[Fri Nov 16 18:11:10 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Fri Nov 16 18:11:10 2012] : DX11System successfully initialized
+[Fri Nov 16 18:11:10 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Fri Nov 16 18:11:10 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Fri Nov 16 18:11:38 2012] : System initializing...
+[Fri Nov 16 18:11:38 2012] : Window initializing...
+[Fri Nov 16 18:11:38 2012] : Window successfully initialized
+[Fri Nov 16 18:11:38 2012] : DX11System initializing...
+[Fri Nov 16 18:11:38 2012] : Available video card memory 1233 MB
+[Fri Nov 16 18:11:38 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Fri Nov 16 18:11:38 2012] : DX11System successfully initialized
+[Fri Nov 16 18:11:38 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Fri Nov 16 18:11:38 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Fri Nov 16 18:12:03 2012] : System initializing...
+[Fri Nov 16 18:12:03 2012] : Window initializing...
+[Fri Nov 16 18:12:03 2012] : Window successfully initialized
+[Fri Nov 16 18:12:03 2012] : DX11System initializing...
+[Fri Nov 16 18:12:04 2012] : Available video card memory 1233 MB
+[Fri Nov 16 18:12:04 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Fri Nov 16 18:12:04 2012] : DX11System successfully initialized
+[Fri Nov 16 18:12:04 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Fri Nov 16 18:12:04 2012] : System initialization successful
+ ------START------ 
+
+[Fri Nov 16 18:14:14 2012] : System initializing...
+[Fri Nov 16 18:14:14 2012] : Window initializing...
+[Fri Nov 16 18:14:14 2012] : Window successfully initialized
+[Fri Nov 16 18:14:14 2012] : DX11System initializing...
+[Fri Nov 16 18:14:14 2012] : Available video card memory 1233 MB
+[Fri Nov 16 18:14:14 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Fri Nov 16 18:14:14 2012] : DX11System successfully initialized
+[Fri Nov 16 18:14:14 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Fri Nov 16 18:14:14 2012] : System initialization successful
+ ------START------ 
+
+[Fri Nov 16 18:14:22 2012] : System initializing...
+[Fri Nov 16 18:14:22 2012] : Window initializing...
+[Fri Nov 16 18:14:22 2012] : Window successfully initialized
+[Fri Nov 16 18:14:22 2012] : DX11System initializing...
+[Fri Nov 16 18:14:22 2012] : Available video card memory 1233 MB
+[Fri Nov 16 18:14:22 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Fri Nov 16 18:14:22 2012] : DX11System successfully initialized
+[Fri Nov 16 18:14:23 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Fri Nov 16 18:14:23 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Fri Nov 16 18:14:27 2012] : System initializing...
+[Fri Nov 16 18:14:27 2012] : Window initializing...
+[Fri Nov 16 18:14:27 2012] : Window successfully initialized
+[Fri Nov 16 18:14:27 2012] : DX11System initializing...
+[Fri Nov 16 18:14:27 2012] : Available video card memory 1233 MB
+[Fri Nov 16 18:14:27 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Fri Nov 16 18:14:27 2012] : DX11System successfully initialized
+[Fri Nov 16 18:14:27 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Fri Nov 16 18:14:27 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Fri Nov 16 18:14:31 2012] : System initializing...
+[Fri Nov 16 18:14:31 2012] : Window initializing...
+[Fri Nov 16 18:14:31 2012] : Window successfully initialized
+[Fri Nov 16 18:14:31 2012] : DX11System initializing...
+[Fri Nov 16 18:14:31 2012] : Available video card memory 1233 MB
+[Fri Nov 16 18:14:31 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Fri Nov 16 18:14:31 2012] : DX11System successfully initialized
+[Fri Nov 16 18:14:31 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Fri Nov 16 18:14:32 2012] : System initialization successful
+ ------START------ 
+
+[Fri Nov 16 18:16:06 2012] : System initializing...
+[Fri Nov 16 18:16:06 2012] : Window initializing...
+[Fri Nov 16 18:16:06 2012] : Window successfully initialized
+[Fri Nov 16 18:16:06 2012] : DX11System initializing...
+[Fri Nov 16 18:16:06 2012] : Available video card memory 1233 MB
+[Fri Nov 16 18:16:06 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Fri Nov 16 18:16:06 2012] : DX11System successfully initialized
+[Fri Nov 16 18:16:06 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Fri Nov 16 18:16:06 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Fri Nov 16 18:20:32 2012] : System initializing...
+[Fri Nov 16 18:20:32 2012] : Window initializing...
+[Fri Nov 16 18:20:33 2012] : Window successfully initialized
+[Fri Nov 16 18:20:33 2012] : DX11System initializing...
+[Fri Nov 16 18:20:33 2012] : Available video card memory 1233 MB
+[Fri Nov 16 18:20:33 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Fri Nov 16 18:20:33 2012] : DX11System successfully initialized
+[Fri Nov 16 18:20:35 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Fri Nov 16 18:20:35 2012] : System initialization successful
+ ------START------ 
+
+[Wed Dec 19 18:02:26 2012] : System initializing...
+[Wed Dec 19 18:02:26 2012] : Window initializing...
+[Wed Dec 19 18:02:27 2012] : Window successfully initialized
+[Wed Dec 19 18:02:27 2012] : DX11System initializing...
+[Wed Dec 19 18:02:27 2012] : Available video card memory 1233 MB
+[Wed Dec 19 18:02:27 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Wed Dec 19 18:02:27 2012] : DX11System successfully initialized
+[Wed Dec 19 18:02:29 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Wed Dec 19 18:02:29 2012] : System initialization successful
+ ------START------ 
+
+[Wed Dec 19 18:07:35 2012] : System initializing...
+[Wed Dec 19 18:07:35 2012] : Window initializing...
+[Wed Dec 19 18:07:36 2012] : Window successfully initialized
+[Wed Dec 19 18:07:36 2012] : DX11System initializing...
+[Wed Dec 19 18:07:36 2012] : Available video card memory 1233 MB
+[Wed Dec 19 18:07:36 2012] : Video Card Name: NVIDIA GeForce GTX 570
+[Wed Dec 19 18:07:36 2012] : DX11System successfully initialized
+[Wed Dec 19 18:07:36 2012] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Wed Dec 19 18:07:36 2012] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Mon Feb 04 22:28:21 2013] : System initializing...
+[Mon Feb 04 22:28:21 2013] : Window initializing...
+[Mon Feb 04 22:28:21 2013] : Available video card memory 1233 MB
+[Mon Feb 04 22:28:21 2013] : Video Card Name: NVIDIA GeForce GTX 570
+[Mon Feb 04 22:28:21 2013] : DX11System successfully initialized
+[Mon Feb 04 22:28:22 2013] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Mon Feb 04 22:28:22 2013] : System initialization successful
+
+ -------END------- 
+
+ ------START------ 
+
+[Mon Feb 04 22:29:54 2013] : System initializing...
+[Mon Feb 04 22:29:54 2013] : Window initializing...
+[Mon Feb 04 22:29:54 2013] : Window successfully initialized
+[Mon Feb 04 22:29:54 2013] : DX11System initializing...
+[Mon Feb 04 22:29:54 2013] : Available video card memory 1233 MB
+[Mon Feb 04 22:29:54 2013] : Video Card Name: NVIDIA GeForce GTX 570
+[Mon Feb 04 22:29:54 2013] : DX11System successfully initialized
+[Mon Feb 04 22:29:54 2013] : Sound Driver: Speakers (Realtek High Definition Audio)
+[Mon Feb 04 22:29:54 2013] : System initialization successful
+
+ -------END------- 
+
