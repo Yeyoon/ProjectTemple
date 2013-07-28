@@ -29,7 +29,7 @@ namespace Engine
 		Graphics*		m_graphics;
 		SoundSystem*	m_soundSystem;
 		ShaderManager*	m_shaderManager;
-		Timer*			m_timer;
+		//Timer*			m_timer;
 	public:
 		System(void);
 		System(const System &other);

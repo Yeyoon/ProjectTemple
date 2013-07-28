@@ -14,6 +14,9 @@ namespace Engine
 	{
 	private:
 		D3DXPLANE m_planes[6];
+		float m_lastDepth;
+		D3DXMATRIX m_lastProj;
+		D3DXMATRIX m_lastView;
 	public:
 		Frustum(void);
 		Frustum(const Frustum &other);

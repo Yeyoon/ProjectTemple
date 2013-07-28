@@ -7,6 +7,7 @@
 #define __INPUT_H_
 
 #include <dinput.h>
+#include "Thread.h"
 
 namespace Engine
 {
@@ -119,13 +120,16 @@ namespace Engine
 		bool Initialize(TYPE type);
 		void Shutdown(void);
 		bool Update(LPARAM lParam=NULL);
+		void UpdateThreaded(LPARAM lParam=NULL);
 		void Reset(void);
 
 		bool IsKeyDown(USHORT key);
 		bool IsKeyHeld(USHORT key);
 		MOUSESTATE GetMouseState(void);
 	private:
+		Engine::Thread *m_thread;
 		USHORT KeyConverter(USHORT key);
+		static void _threadUpdateFunc(void* caller);
 	};
 };
 #endif

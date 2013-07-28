@@ -41,8 +41,8 @@ namespace Engine
 #ifdef _DEBUG
 		FPSCounter* m_fpsCounter;
 		CPUCounter* m_cpuCounter;
-		Text*		m_fps;
-		Text*		m_cpu;
+		//Text*		m_fps;
+		//Text*		m_cpu;
 #endif //_DEBUG
 	public:
 		Graphics(void);

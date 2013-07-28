@@ -14,7 +14,7 @@ private:
 	Engine::Camera* m_camera;
 	Engine::Model* m_model;
 	Engine::Light* m_light;
-	Engine::Text* m_text;
+	//Engine::Text* m_text;
 public:
 	TestScene(void);
 	virtual ~TestScene(void);

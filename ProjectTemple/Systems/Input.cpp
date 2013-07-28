@@ -328,9 +328,23 @@ void Input::Shutdown(void)
 	}
 }
 
+void Input::UpdateThreaded(LPARAM lParam)
+{
+	m_thread = new Engine::Thread(_threadUpdateFunc, this);
+
+	m_thread->Start();
+}
+
 ///////////////////////////////////////////////////////////////
 // Private Functions
 ///////////////////////////////////////////////////////////////
+void Input::_threadUpdateFunc(void* caller)
+{
+	Input *pCaller = (Input*)caller;
+
+	//pCaller->Update(
+}
+
 USHORT Input::KeyConverter(USHORT key)
 {
 	if(m_currInput == INPUT_RAW)

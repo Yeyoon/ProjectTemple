@@ -9,6 +9,9 @@ using namespace Engine;
 
 Frustum::Frustum(void)
 {
+	m_lastDepth = 0;
+	m_lastProj = D3DXMATRIX(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0);
+	m_lastView = D3DXMATRIX(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0);
 }
 
 Frustum::Frustum(const Frustum &other)
@@ -24,6 +27,13 @@ Frustum::~Frustum(void)
 ///////////////////////////////////////////////////////////////
 void Frustum::Construct(float screenDepth, D3DXMATRIX proj, D3DXMATRIX view)
 {
+	if(m_lastDepth == screenDepth && m_lastProj == proj && m_lastView == view)
+		return;
+
+	m_lastDepth = screenDepth;
+	m_lastProj = proj;
+	m_lastView = view;
+
 	float zMin, r;
 	D3DXMATRIX fMat;
 

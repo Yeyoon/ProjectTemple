@@ -498,12 +498,7 @@ void DX11System::Shutdown(void)
 
 void DX11System::BeginScene(float red, float green, float blue, float alpha)
 {
-	float color[4];
-
-	color[0] = red;
-	color[1] = green;
-	color[2] = blue;
-	color[3] = alpha;
+	float color[] = {red, green, blue, alpha};
 
 	//Clear back buffer
 	m_deviceContext->ClearRenderTargetView(m_renderTargetView, color);

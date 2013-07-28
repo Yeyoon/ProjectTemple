@@ -22,7 +22,7 @@ public:
 
 	TestScene* m_nextScene;
 	Engine::Thread *m_thread;
-	Engine::Text *m_loading;
+	//Engine::Text *m_loading;
 };
 
 #endif //__LOADSCENE_H_

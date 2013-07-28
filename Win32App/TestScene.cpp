@@ -6,7 +6,7 @@ TestScene::TestScene(void)
 	m_camera = NULL;
 	m_model = NULL;
 	m_light = NULL;
-	m_text = NULL;
+	//m_text = NULL;
 }
 
 TestScene::~TestScene(void)
@@ -83,21 +83,21 @@ bool TestScene::Initialize(void)
 		return false;
 	}*/
 
-	m_text = new Engine::Text();
-	if(!m_text)
-	{
-		Engine::LogManager::GetInstance()->Error("TestScene::Initialize Text could not be created");
-		return false;
-	}
+	//m_text = new Engine::Text();
+	//if(!m_text)
+	//{
+	//	Engine::LogManager::GetInstance()->Error("TestScene::Initialize Text could not be created");
+	//	return false;
+	//}
 
-	result = m_text->Initialize(L"This is a test!", 400.f, 400.f);
-	if(!result)
-	{
-		Engine::LogManager::GetInstance()->Error("TestScene::Initialize Text could not be initialized");
-		return false;
-	}
+	//result = m_text->Initialize(L"This is a test!", 400.f, 400.f);
+	//if(!result)
+	//{
+	//	Engine::LogManager::GetInstance()->Error("TestScene::Initialize Text could not be initialized");
+	//	return false;
+	//}
 
-	m_text->SetColour(Engine::BLUE);
+	//m_text->SetColour(Engine::BLUE);
 
 	Engine::Overlord::GetInstance()->GetShaders()->SetLight(m_light);
 
@@ -118,7 +118,7 @@ void TestScene::Render3D(void)
 
 void TestScene::Render2D(void)
 {
-	m_text->Render();
+	//m_text->Render();
 }
 
 void TestScene::Shutdown(void)

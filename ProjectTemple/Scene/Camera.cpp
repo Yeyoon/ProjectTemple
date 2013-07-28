@@ -71,21 +71,10 @@ Frustum* Camera::GetFrustum(void)
 
 void Camera::Render(void)
 {
-	D3DXVECTOR3 up, position, lookAt;
-
-	up.x = m_upX;
-	up.y = m_upY;
-	up.z = m_upZ;
-
-	position.x = m_positionX;
-	position.y = m_positionY;
-	position.z = m_positionZ;
-
-	lookAt.x = m_lookAtX;
-	lookAt.y = m_lookAtY;
-	lookAt.z = m_lookAtZ;
-
-	D3DXMatrixLookAtLH(&m_viewMatrix, &position, &lookAt, &up);
+	D3DXMatrixLookAtLH(&m_viewMatrix, 
+		&D3DXVECTOR3(m_positionX, m_positionY, m_positionZ), 
+		&D3DXVECTOR3(m_lookAtX, m_lookAtY, m_lookAtZ), 
+		&D3DXVECTOR3(m_upX, m_upY, m_upZ));
 
 	//Construct the Frustum
 	D3DXMATRIX proj;

@@ -120,9 +120,9 @@ bool System::Initialize(void)
 
 	result = m_havokSystem->Initialize();*/
 
-	m_timer = new Timer();
+	/*m_timer = new Timer();
 
-	m_timer->Initialize();
+	m_timer->Initialize();*/
 
 	//Sound* temp;
 	//m_soundSystem->CreateStream("title.mp3", &temp);
@@ -135,11 +135,11 @@ bool System::Initialize(void)
 
 void System::Shutdown(void)
 {
-	if(m_timer)
+	/*if(m_timer)
 	{
 		delete m_timer;
 		m_timer = NULL;
-	}
+	}*/
 
 	/*if(m_havokSystem)
 	{
@@ -200,7 +200,7 @@ void System::Run(void)
 		}
 		else
 		{
-			double dTime = m_timer->GetTime();
+			//double dTime = m_timer->GetTime();
 			//m_havokSystem->Update(dTime);
 			result = Frame();
 			if(!result)
@@ -232,7 +232,7 @@ bool System::Frame(void)
 {
 	bool result;
 
-	m_soundSystem->Update();
+	//m_soundSystem->Update();
 
 	result = m_graphics->Frame();
 	if(!result)
