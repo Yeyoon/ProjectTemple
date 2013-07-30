@@ -42,14 +42,14 @@ bool DX11System::Initialize(UINT screenWidth, UINT screenHeight, bool vsync, HWN
 	IDXGIFactory*				factory;
 	IDXGIAdapter*				adapter;
 	IDXGIOutput*				adapterOutput;
-	UINT						numModes, 
-								i, 
-								numerator, 
-								denominator, 
-								stringLength;
+	UINT						numModes=0, 
+								i=0, 
+								numerator=0, 
+								denominator=0, 
+								stringLength=0;
 	DXGI_MODE_DESC*				displayModeList;
 	DXGI_ADAPTER_DESC			adapterDesc;
-	int							error;
+	int							error=0;
 	DXGI_SWAP_CHAIN_DESC		swapChainDesc;
 	D3D_FEATURE_LEVEL			featureLevel;
 	ID3D11Texture2D*			backBufferPtr;
@@ -59,7 +59,7 @@ bool DX11System::Initialize(UINT screenWidth, UINT screenHeight, bool vsync, HWN
 	D3D11_DEPTH_STENCIL_VIEW_DESC depthStencilViewDesc;
 	D3D11_RASTERIZER_DESC		rasterDesc;
 	D3D11_VIEWPORT				viewport;
-	float						fieldOfView, screenAspect;
+	float						fieldOfView=0.f, screenAspect=0.f;
 	D3D11_BLEND_DESC			blendStateDesc;
 
 	m_vsync = vsync;

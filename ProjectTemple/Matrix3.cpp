@@ -3,10 +3,10 @@
 
 using namespace Engine;
 
-const float Matrix3::EPSILON = 1e-06;
+const float Matrix3::EPSILON = 1e-06f;
 const Matrix3 Matrix3::ZERO(0,0,0,0,0,0,0,0,0);
 const Matrix3 Matrix3::IDENTITY(1,0,0,0,1,0,0,0,1);
-const float Matrix3::msSvdEpsilon = 1e-04;
+const float Matrix3::msSvdEpsilon = 1e-04f;
 const unsigned int Matrix3::msSvdMaxIterations = 32;
 
 Matrix3::Matrix3(const float arr[3][3])

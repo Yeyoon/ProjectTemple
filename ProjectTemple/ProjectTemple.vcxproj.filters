@@ -150,6 +150,9 @@
     <ClCompile Include="Matrix4.cpp">
       <Filter>Source Files\Math</Filter>
     </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\Systems</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Player.h">
@@ -266,9 +269,30 @@
     <ClInclude Include="Matrix4.h">
       <Filter>Header Files\Math</Filter>
     </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files\Systems</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="TODO List.txt">
+      <Filter>TODO</Filter>
+    </None>
+    <None Include="..\Win32App\Multitexture.ps">
+      <Filter>TODO</Filter>
+    </None>
+    <None Include="..\Win32App\Multitexture.vs">
+      <Filter>TODO</Filter>
+    </None>
+    <None Include="..\Win32App\Texture.ps">
+      <Filter>TODO</Filter>
+    </None>
+    <None Include="..\Win32App\Texture.vs">
+      <Filter>TODO</Filter>
+    </None>
+    <None Include="..\Win32App\Light.ps">
+      <Filter>TODO</Filter>
+    </None>
+    <None Include="..\Win32App\Light.vs">
       <Filter>TODO</Filter>
     </None>
   </ItemGroup>

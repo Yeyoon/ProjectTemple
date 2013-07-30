@@ -14,6 +14,7 @@
     <ClCompile Include="Counters\CPUCounter.cpp" />
     <ClCompile Include="Counters\FPSCounter.cpp" />
     <ClCompile Include="Counters\Timer.cpp" />
+    <ClCompile Include="Game.cpp" />
     <ClCompile Include="Math\Math.cpp" />
     <ClCompile Include="Math\Quaternion.cpp" />
     <ClCompile Include="Math\Vector2.cpp" />
@@ -50,6 +51,7 @@
     <ClInclude Include="Counters\CPUCounter.h" />
     <ClInclude Include="Counters\FPSCounter.h" />
     <ClInclude Include="Counters\Timer.h" />
+    <ClInclude Include="Game.h" />
     <ClInclude Include="Math\Colour.h" />
     <ClInclude Include="Math\Math.h" />
     <ClInclude Include="Math\Quaternion.h" />
@@ -87,6 +89,12 @@
     <ClInclude Include="Systems\Thread.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\Win32App\Light.ps" />
+    <None Include="..\Win32App\Light.vs" />
+    <None Include="..\Win32App\Multitexture.ps" />
+    <None Include="..\Win32App\Multitexture.vs" />
+    <None Include="..\Win32App\Texture.ps" />
+    <None Include="..\Win32App\Texture.vs" />
     <None Include="TODO List.txt" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
@@ -115,7 +123,9 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-  <PropertyGroup />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>

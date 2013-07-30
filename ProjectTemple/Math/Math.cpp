@@ -567,5 +567,5 @@ float Math::BoxMullerRandom(float mean, float standardDev)
 		use_last = 1;
 	}
 
-	return (mean + y1 * standardDev);
+	return (mean + (float)y1 * standardDev);
 }
