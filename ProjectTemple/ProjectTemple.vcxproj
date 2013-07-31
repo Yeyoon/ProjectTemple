@@ -14,14 +14,13 @@
     <ClCompile Include="Counters\CPUCounter.cpp" />
     <ClCompile Include="Counters\FPSCounter.cpp" />
     <ClCompile Include="Counters\Timer.cpp" />
-    <ClCompile Include="Game.cpp" />
     <ClCompile Include="Math\Math.cpp" />
+    <ClCompile Include="Math\Matrix3.cpp" />
+    <ClCompile Include="Math\Matrix4.cpp" />
     <ClCompile Include="Math\Quaternion.cpp" />
     <ClCompile Include="Math\Vector2.cpp" />
     <ClCompile Include="Math\Vector3.cpp" />
     <ClCompile Include="Math\Vector4.cpp" />
-    <ClCompile Include="Matrix3.cpp" />
-    <ClCompile Include="Matrix4.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="Scene\Bitmap.cpp" />
     <ClCompile Include="Scene\Camera.cpp" />
@@ -29,7 +28,6 @@
     <ClCompile Include="Scene\Light.cpp" />
     <ClCompile Include="Scene\Mesh.cpp" />
     <ClCompile Include="Scene\Model.cpp" />
-    <ClCompile Include="Scene\Text.cpp" />
     <ClCompile Include="Scene\Texture.cpp" />
     <ClCompile Include="Scene\TextureManager.cpp" />
     <ClCompile Include="Settings.cpp" />
@@ -46,20 +44,22 @@
     <ClCompile Include="Systems\SoundSystem.cpp" />
     <ClCompile Include="Systems\System.cpp" />
     <ClCompile Include="Systems\Thread.cpp" />
+    <ClCompile Include="Text\Font.cpp" />
+    <ClCompile Include="Text\FontManager.cpp" />
+    <ClCompile Include="Text\Text.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Counters\CPUCounter.h" />
     <ClInclude Include="Counters\FPSCounter.h" />
     <ClInclude Include="Counters\Timer.h" />
-    <ClInclude Include="Game.h" />
     <ClInclude Include="Math\Colour.h" />
     <ClInclude Include="Math\Math.h" />
+    <ClInclude Include="Math\Matrix3.h" />
+    <ClInclude Include="Math\Matrix4.h" />
     <ClInclude Include="Math\Quaternion.h" />
     <ClInclude Include="Math\Vector2.h" />
     <ClInclude Include="Math\Vector3.h" />
     <ClInclude Include="Math\Vector4.h" />
-    <ClInclude Include="Matrix3.h" />
-    <ClInclude Include="Matrix4.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="Scene\Bitmap.h" />
     <ClInclude Include="Scene\Camera.h" />
@@ -69,7 +69,6 @@
     <ClInclude Include="Scene\Model.h" />
     <ClInclude Include="Scene\Renderable.h" />
     <ClInclude Include="Scene\Scene.h" />
-    <ClInclude Include="Scene\Text.h" />
     <ClInclude Include="Scene\Texture.h" />
     <ClInclude Include="Scene\TextureManager.h" />
     <ClInclude Include="Settings.h" />
@@ -87,6 +86,9 @@
     <ClInclude Include="Systems\SoundSystem.h" />
     <ClInclude Include="Systems\System.h" />
     <ClInclude Include="Systems\Thread.h" />
+    <ClInclude Include="Text\Font.h" />
+    <ClInclude Include="Text\FontManager.h" />
+    <ClInclude Include="Text\Text.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Win32App\Light.ps" />

@@ -46,11 +46,14 @@
     <Filter Include="Source Files\Math">
       <UniqueIdentifier>{05c5274b-69b3-407f-b335-7660a3288142}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Text">
+      <UniqueIdentifier>{ed911f8e-eda7-46fc-a7a3-2142edbd95c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Text">
+      <UniqueIdentifier>{16987879-7272-45b6-acb7-032b2021bdc7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Player.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Settings.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -85,9 +88,6 @@
       <Filter>Source Files\Scene</Filter>
     </ClCompile>
     <ClCompile Include="Scene\Model.cpp">
-      <Filter>Source Files\Scene</Filter>
-    </ClCompile>
-    <ClCompile Include="Scene\Text.cpp">
       <Filter>Source Files\Scene</Filter>
     </ClCompile>
     <ClCompile Include="Scene\Texture.cpp">
@@ -144,14 +144,23 @@
     <ClCompile Include="Math\Quaternion.cpp">
       <Filter>Source Files\Math</Filter>
     </ClCompile>
-    <ClCompile Include="Matrix3.cpp">
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Text\FontManager.cpp">
+      <Filter>Source Files\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Text\Text.cpp">
+      <Filter>Source Files\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Text\Font.cpp">
+      <Filter>Source Files\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Matrix3.cpp">
       <Filter>Source Files\Math</Filter>
     </ClCompile>
-    <ClCompile Include="Matrix4.cpp">
+    <ClCompile Include="Math\Matrix4.cpp">
       <Filter>Source Files\Math</Filter>
-    </ClCompile>
-    <ClCompile Include="Game.cpp">
-      <Filter>Source Files\Systems</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -201,9 +210,6 @@
       <Filter>Header Files\Scene</Filter>
     </ClInclude>
     <ClInclude Include="Scene\Scene.h">
-      <Filter>Header Files\Scene</Filter>
-    </ClInclude>
-    <ClInclude Include="Scene\Text.h">
       <Filter>Header Files\Scene</Filter>
     </ClInclude>
     <ClInclude Include="Scene\Texture.h">
@@ -263,14 +269,20 @@
     <ClInclude Include="Math\Quaternion.h">
       <Filter>Header Files\Math</Filter>
     </ClInclude>
-    <ClInclude Include="Matrix3.h">
+    <ClInclude Include="Text\FontManager.h">
+      <Filter>Header Files\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Text\Text.h">
+      <Filter>Header Files\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Text\Font.h">
+      <Filter>Header Files\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Matrix3.h">
       <Filter>Header Files\Math</Filter>
     </ClInclude>
-    <ClInclude Include="Matrix4.h">
+    <ClInclude Include="Math\Matrix4.h">
       <Filter>Header Files\Math</Filter>
-    </ClInclude>
-    <ClInclude Include="Game.h">
-      <Filter>Header Files\Systems</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
