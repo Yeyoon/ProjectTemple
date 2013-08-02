@@ -35,7 +35,8 @@ Font::~Font(void)
 ///////////////////////////////////////////////////////////////
 void Font::ReadFile(const char* fileName)
 {
-	FILE *f = fopen(fileName, "rb");
+	FILE *f;// = fopen(fileName, "rb");
+	fopen_s(&f, fileName, "rb");
 
 	std::string line;
 
@@ -339,7 +340,7 @@ void Font::InterpretCommon(std::string &str, int start)
 		if(pos == str.size()) break;
 	}
 
-	SetCommonInfo(fontHeight, base, scaleW, scaleH, pages, packed);
+	SetCommonInfo(fontHeight, base, scaleW, scaleH, pages, packed ? true : false);
 }
 
 void Font::InterpretInfo(std::string &str, int start)

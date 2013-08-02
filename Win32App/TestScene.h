@@ -6,7 +6,7 @@
 #include <Shader\LightShader.h>
 #include <Scene\Light.h>
 #include <Scene\Camera.h>
-#include <Scene\Text.h>
+#include <Text\Text.h>
 
 class TestScene : public Engine::Scene
 {

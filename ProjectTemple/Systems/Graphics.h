@@ -17,9 +17,9 @@
 #include <Scene\Model.h>
 #include <Scene\Light.h>
 #include <Scene\Bitmap.h>
-#include <Scene\Text.h>
 #include <Scene\Frustum.h>
 #include <Scene\Scene.h>
+#include <Text\Text.h>
 
 #include <Windows.h>
 
