@@ -3,7 +3,7 @@
 // Author:		Daniel Cossu
 // Company:		Ripe Tomato Studios
 ///////////////////////////////////////////////////////////////
-#include <Scene\Text.h>
+#include <Text\Text.h>
 
 using namespace Engine;
 

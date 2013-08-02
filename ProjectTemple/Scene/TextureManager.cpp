@@ -1,3 +1,8 @@
+///////////////////////////////////////////////////////////////
+// Filename:	TextureManager.cpp
+// Author:		Daniel Cossu
+// Company:		Ripe Tomato Studios
+///////////////////////////////////////////////////////////////
 #include <Scene\TextureManager.h>
 
 using namespace Engine;
@@ -5,16 +10,9 @@ using namespace Engine;
 TextureManager* TextureManager::m_instance = NULL;
 Destroyer<TextureManager> TextureManager::m_destroyer;
 
-TextureManager* TextureManager::GetInstance(void)
-{
-	if(m_instance == NULL)
-	{
-		m_instance = new TextureManager();
-		m_destroyer.setSingleton(m_instance);
-	}
-	return m_instance;
-}
-
+///////////////////////////////////////////////////////////////
+// Constructors and Destructors
+///////////////////////////////////////////////////////////////
 TextureManager::TextureManager(void)
 {
 	m_textureMap.clear();
@@ -34,6 +32,22 @@ TextureManager::~TextureManager(void)
 	m_textureMap.clear();
 }
 
+///////////////////////////////////////////////////////////////
+// Public Functions
+///////////////////////////////////////////////////////////////
+TextureManager* TextureManager::GetInstance(void)
+{
+	if(m_instance == NULL)
+	{
+		m_instance = new TextureManager();
+		m_destroyer.setSingleton(m_instance);
+	}
+	return m_instance;
+}
+
+///////////////////////////////////////////////////////////////
+// Private Functions
+///////////////////////////////////////////////////////////////
 Texture* TextureManager::GetTexture(std::string file)
 {
 	MapType::iterator i = m_textureMap.find(file);
