@@ -30,18 +30,14 @@ Bitmap::~Bitmap(void)
 ///////////////////////////////////////////////////////////////
 // Public Functions
 ///////////////////////////////////////////////////////////////
-bool Bitmap::Initialize(int screenWidth, int screenHeight, int width, int height, char* textureFilename)
+bool Bitmap::Initialize(int width, int height, char* textureFilename)
 {
 	bool result;
 
-	m_screenHeight = screenHeight;
-	m_screenWidth = screenWidth;
+	m_dimensions.x = width;
+	m_dimensions.y = height;
 
-	m_width = width;
-	m_height = height;
-
-	m_prevPosX = -1;
-	m_prevPosY = -1;
+	m_position = 0;
 
 	result = InitializeBuffers();
 	if(!result)
@@ -65,20 +61,19 @@ void Bitmap::Shutdown(void)
 	ShutdownBuffers();
 }
 
-bool Bitmap::Render(int posX, int posY)
+void Bitmap::Render(void)
 {
-	bool result;
-
-	result = UpdateBuffers(posX, posY);
-	if(!result)
-	{
-		LogManager::GetInstance()->Error("Bitmap::Render could not update the bitmap buffers");
-		return false;
-	}
+	//if((posX != m_prevPosX) || (posY != m_prevPosY))
+	//{
+		//result = UpdateBuffers(posX, posY);
+		//if(!result)
+		//{
+			//LogManager::GetInstance()->Error("Bitmap::Render could not update the bitmap buffers");
+			//return false;
+		//}
+	//}
 
 	RenderBuffers();
-
-	return true;
 }
 
 int Bitmap::GetIndexCount(void)
@@ -187,7 +182,7 @@ void Bitmap::ShutdownBuffers(void)
 	}
 }
 
-bool Bitmap::UpdateBuffers(int posX, int posY)
+bool Bitmap::UpdateBuffers(void)
 {
 	float left, right, top, bottom;
 	VertexType* vertices;
@@ -197,18 +192,13 @@ bool Bitmap::UpdateBuffers(int posX, int posY)
 
 	ID3D11DeviceContext* deviceContext = Overlord::GetInstance()->GetDeviceContext();
 
-	if((posX == m_prevPosX) && (posY == m_prevPosY))
-	{
-		return true;
-	}
+	int width =  Overlord::GetInstance()->GetSystem()->GetWindowSize().x;
+	int height = Overlord::GetInstance()->GetSystem()->GetWindowSize().y;
 
-	m_prevPosX = posX;
-	m_prevPosY = posY;
-
-	left = (float)((m_screenWidth / 2) * -1) + (float)posX;
-	right = left + (float)m_width;
-	top = (float)(m_screenHeight / 2) - (float)posY;
-	bottom = top - (float)m_height;
+	left = (float)((width / 2) * -1) + (float)m_position.x;
+	right = left + (float)m_dimensions.x;
+	top = (float)(height / 2) - (float)m_position.y;
+	bottom = top - (float)m_dimensions.y;
 
 	vertices = new VertexType[m_vertexCount];
 	if(!vertices)
@@ -289,4 +279,40 @@ bool Bitmap::LoadTexture(char* fileName)
 	}
 
 	return true;
+}
+
+void Bitmap::SetPosition(int posX, int posY)
+{
+	if(m_position.x == posX && m_position.y == posY)
+		return;
+
+	m_position = Vector2(posX, posY);
+	UpdateBuffers();
+}
+
+void Bitmap::SetPosition(Vector2 pos)
+{
+	if(m_position == pos)
+		return;
+
+	m_position = pos;
+	UpdateBuffers();
+}
+
+void Bitmap::Resize(int width, int height)
+{
+	if(m_dimensions.x == width && m_dimensions.y == height)
+		return;
+
+	m_dimensions = Vector2(width, height);
+	UpdateBuffers();
+}
+
+void Bitmap::Resize(Vector2 size)
+{
+	if(m_dimensions == size)
+		return;
+
+	m_dimensions = size;
+	UpdateBuffers();
 }

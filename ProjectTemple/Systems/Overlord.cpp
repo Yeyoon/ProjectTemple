@@ -13,4 +13,5 @@ Destroyer<Overlord> Overlord::m_destroyer;
 Overlord::Overlord(void)
 {
 	m_system = NULL;
+	m_currentCamera = NULL;
 }

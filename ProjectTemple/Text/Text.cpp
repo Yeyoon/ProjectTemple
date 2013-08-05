@@ -4,6 +4,7 @@
 // Company:		Ripe Tomato Studios
 ///////////////////////////////////////////////////////////////
 #include <Text\Text.h>
+#include <Scene\TextureManager.h>
 
 using namespace Engine;
 
@@ -12,16 +13,28 @@ using namespace Engine;
 ///////////////////////////////////////////////////////////////
 Text::Text(void)
 {
+	m_builtText = NULL;
 }
 
 Text::Text(const Text &other)
 {
+	m_builtText = other.m_builtText;
 }
 
 Text::~Text(void)
 {
+	//TextureManager::GetInstance()->
 }
 
 ///////////////////////////////////////////////////////////////
 // Public Functions
 ///////////////////////////////////////////////////////////////
+void Text::BuildText(const std::string& name, Font* font)
+{
+
+}
+
+void Text::RenderText(void)
+{
+	//m_builtText->GetTexture()->
+}

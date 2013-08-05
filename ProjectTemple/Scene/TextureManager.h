@@ -27,6 +27,7 @@ namespace Engine
 	public:
 		static TextureManager* GetInstance(void);
 		Texture* GetTexture(std::string file);
+		Texture* BuildTextureFromData(std::string name, int* data, int width, int height);
 	};
 }
 

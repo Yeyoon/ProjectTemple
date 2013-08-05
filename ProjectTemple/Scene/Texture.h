@@ -9,6 +9,7 @@
 #include <D3D11.h>
 #include <D3DX11tex.h>
 #include <Systems\LogManager.h>
+#include <string>
 
 namespace Engine
 {
@@ -22,7 +23,8 @@ namespace Engine
 		Texture(const Texture &other);
 		virtual ~Texture(void);
 
-		bool Initialize(char* fileName);
+		bool Initialize(const std::string& fileName);
+		bool Initialize(int* data, int width, int height);
 		void Shutdown(void);
 	public:
 		ID3D11ShaderResourceView* GetTexture(void);

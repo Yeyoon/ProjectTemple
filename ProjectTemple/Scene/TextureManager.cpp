@@ -57,7 +57,21 @@ Texture* TextureManager::GetTexture(std::string file)
 	}
 
 	Texture* texture = new Texture();
-	texture->Initialize(const_cast<char*>(file.c_str()));
+	texture->Initialize(file);
 	m_textureMap[file] = texture;
+	return texture;
+}
+
+Texture* TextureManager::BuildTextureFromData(std::string name, int* data, int width, int height)
+{
+	MapType::iterator i = m_textureMap.find(name);
+	if(i != m_textureMap.end())
+	{
+		return (*i).second;
+	}
+
+	Texture* texture = new Texture();
+	texture->Initialize(data, width, height);
+	m_textureMap[name] = texture;
 	return texture;
 }
