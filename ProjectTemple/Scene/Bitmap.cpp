@@ -56,6 +56,27 @@ bool Bitmap::Initialize(int width, int height, char* textureFilename)
 	return true;
 }
 
+bool Bitmap::Initialize(int width, int height, int* data)
+{
+	bool result;
+
+	m_position = 0;
+
+	m_dimensions.x = width;
+	m_dimensions.y = height;
+
+	result = InitializeBuffers();
+	if(!result)
+	{
+		LogManager::GetInstance()->Error("Bitmap::Initialize could not initiliaze the bitmap buffers (%s)", textureFilename);
+		return false;
+	}
+
+	result = LoadTexture(
+
+	return true;
+}
+
 void Bitmap::Shutdown(void)
 {
 	ShutdownBuffers();
@@ -272,6 +293,18 @@ bool Bitmap::LoadTexture(char* fileName)
 	}*/
 
 	m_texture = TextureManager::GetInstance()->GetTexture(fileName);
+	if(!m_texture)
+	{
+		LogManager::GetInstance()->Error("TextureManager screwed up.");
+		return false;
+	}
+
+	return true;
+}
+
+bool Bitmap::LoadTexture(int* data, std::string name, int width, int height)
+{
+	m_texture = TextureManager::GetInstance()->BuildTextureFromData(name, data, width, height);
 	if(!m_texture)
 	{
 		LogManager::GetInstance()->Error("TextureManager screwed up.");

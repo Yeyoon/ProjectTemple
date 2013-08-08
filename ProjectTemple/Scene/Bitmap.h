@@ -32,7 +32,8 @@ namespace Engine
 		Bitmap(const Bitmap &other);
 		virtual ~Bitmap(void);
 
-		bool Initialize(int width, int height, int x, int y, char* textureFilename);
+		bool Initialize(int width, int height, char* textureFilename);
+		bool Initialize(int width, int height, int* data);
 		void Shutdown(void);
 		void Render(void);
 
@@ -49,6 +50,7 @@ namespace Engine
 		void RenderBuffers(void);
 
 		bool LoadTexture(char* filename);
+		bool LoadTexture(int* data, std::string name, int width, int height);
 	};
 };
 

@@ -7,7 +7,7 @@
 #define __TEXT_H_
 
 #include <Text\Font.h>
-#include <Scene\Texture.h>
+#include <Scene\Bitmap.h>
 #include <string>
 
 namespace Engine
@@ -15,7 +15,7 @@ namespace Engine
 	class Text
 	{
 	private:
-		Texture* m_builtText;
+		Bitmap* m_builtText;
 	public:
 		Text(void);
 		Text(const Text &other);
