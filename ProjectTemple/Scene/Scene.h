@@ -51,12 +51,15 @@ namespace Engine
 		{
 			m_bInitialized = false;
 			m_bUpdating = true;
+			m_bTimerInit = false;
 			m_updateTimer = new Timer();
 			m_updateLoop = new Thread(Scene::_updateThread, this);
 			m_updateLoop->Start();
 		}
 		virtual ~Scene(void)
 		{
+			//This is bad, figure out how to cleanly kill the thread instead of pausing it.
+			m_updateLoop->Pause();
 			m_bUpdating = m_bInitialized = false;
 		}
 

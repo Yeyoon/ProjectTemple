@@ -68,11 +68,11 @@ bool Bitmap::Initialize(int width, int height, int* data)
 	result = InitializeBuffers();
 	if(!result)
 	{
-		LogManager::GetInstance()->Error("Bitmap::Initialize could not initiliaze the bitmap buffers (%s)", textureFilename);
+		//LogManager::GetInstance()->Error("Bitmap::Initialize could not initiliaze the bitmap buffers (%s)", textureFilename);
 		return false;
 	}
 
-	result = LoadTexture(
+	//result = LoadTexture(
 
 	return true;
 }
@@ -213,8 +213,8 @@ bool Bitmap::UpdateBuffers(void)
 
 	ID3D11DeviceContext* deviceContext = Overlord::GetInstance()->GetDeviceContext();
 
-	int width =  Overlord::GetInstance()->GetSystem()->GetWindowSize().x;
-	int height = Overlord::GetInstance()->GetSystem()->GetWindowSize().y;
+	int width =  640;//Overlord::GetInstance()->GetSystem()->GetWindowSize().x;
+	int height = 480;//Overlord::GetInstance()->GetSystem()->GetWindowSize().y;
 
 	left = (float)((width / 2) * -1) + (float)m_position.x;
 	right = left + (float)m_dimensions.x;
