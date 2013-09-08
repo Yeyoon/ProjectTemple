@@ -15,7 +15,6 @@
 #include <Systems\SoundSystem.h>
 #include <Shader\ShaderManager.h>
 #include <Counters\Timer.h>
-#include <Math\Vector2.h>
 
 namespace Engine
 {
@@ -30,18 +29,15 @@ namespace Engine
 		Graphics*		m_graphics;
 		SoundSystem*	m_soundSystem;
 		ShaderManager*	m_shaderManager;
-		Vector2			m_windowSize;
 		//Timer*			m_timer;
 	public:
 		System(void);
 		System(const System &other);
 		virtual ~System(void);
 
-		bool Initialize(int winHeight, int winWidth);
+		bool Initialize(void);
 		void Shutdown(void);
 		void Run(void);
-		Vector2 GetWindowSize(void);
-
 
 		//LRESULT CALLBACK MessageHandler(HWND hWnd, UINT msg, WPARAM wparam, LPARAM lparam);
 
@@ -49,7 +45,7 @@ namespace Engine
 		static LRESULT CALLBACK WndProc(HWND hWnd, UINT msg, WPARAM wparam, LPARAM lparam);
 
 		bool Frame(void);
-		void InitializeWindows(UINT screenWidth, UINT screenHeight);
+		void InitializeWindows(UINT &screenWidth, UINT &screenHeight);
 		void ShutdownWindows(void);
 	};
 };

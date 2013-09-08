@@ -18,7 +18,6 @@ System::System(void)
 	m_graphics = NULL;
 	m_soundSystem = NULL;
 	m_shaderManager = NULL;
-	m_windowSize = 0;
 	//m_havokSystem = NULL;
 }
 
@@ -35,15 +34,17 @@ System::~System(void)
 ///////////////////////////////////////////////////////////////
 // Public Functions
 ///////////////////////////////////////////////////////////////
-bool System::Initialize(int winHeight, int winWidth)
+bool System::Initialize(void)
 {
 	LogManager::GetInstance()->Trace("System initializing...");
+	UINT sWidth, sHeight;
 	bool result;
+	sWidth = sHeight = 0;
 	m_input = NULL;
 	m_graphics = NULL;
 	m_soundSystem = NULL;
 
-	InitializeWindows(winHeight, winWidth);
+	InitializeWindows(sWidth, sHeight);
 
 	m_input = new Input();
 	if(!m_input)
@@ -72,7 +73,7 @@ bool System::Initialize(int winHeight, int winWidth)
 		return false;
 	}
 
-	result = m_graphics->Initialize(m_screenWidth, m_screenHeight, m_hWnd);
+	result = m_graphics->Initialize(sWidth, sHeight, m_hWnd);
 	if(!result)
 	{
 		LogManager::GetInstance()->Error("System::Initialize Graphics could not be initialized");
@@ -208,11 +209,6 @@ void System::Run(void)
 	}
 }
 
-Vector2 System::GetWindowSize(void)
-{
-	return m_windowSize;
-}
-
 //LRESULT CALLBACK System::MessageHandler(HWND hWnd, UINT msg, WPARAM wparam, LPARAM lparam)
 //{
 //	switch(msg)
@@ -245,7 +241,7 @@ bool System::Frame(void)
 	return true;
 }
 
-void System::InitializeWindows(UINT screenWidth, UINT screenHeight)
+void System::InitializeWindows(UINT &screenWidth, UINT &screenHeight)
 {
 	LogManager::GetInstance()->Trace("Window initializing...");
 	WNDCLASSEX wc;
@@ -275,15 +271,15 @@ void System::InitializeWindows(UINT screenWidth, UINT screenHeight)
 
 	RECT currentRes;
 	GetWindowRect(GetDesktopWindow(), &currentRes);
-	m_windowSize.x = currentRes.right;
-	m_windowSize.y = currentRes.bottom;
+	screenWidth = currentRes.right;
+	screenHeight = currentRes.bottom;
 
 	if(g_fullScreen)
 	{
 		memset(&dmScreenSettings, 0, sizeof(dmScreenSettings));
 		dmScreenSettings.dmSize = sizeof(dmScreenSettings);
-		dmScreenSettings.dmPelsWidth = (ULONG)m_windowSize.x;
-		dmScreenSettings.dmPelsHeight = (ULONG)m_windowSize.y;
+		dmScreenSettings.dmPelsWidth = (ULONG)screenWidth;
+		dmScreenSettings.dmPelsHeight = (ULONG)screenHeight;
 		dmScreenSettings.dmBitsPerPel = 32;
 		dmScreenSettings.dmFields = DM_BITSPERPEL | DM_PELSWIDTH | DM_PELSHEIGHT;
 
@@ -292,16 +288,16 @@ void System::InitializeWindows(UINT screenWidth, UINT screenHeight)
 	}
 	else
 	{
-		m_windowSize.x = screenWidth;
-		m_windowSize.y = screenHeight;
+		screenWidth = 800;
+		screenHeight = 600;
 
-		posX = (currentRes.right - m_windowSize.x) / 2;
-		posY = (currentRes.bottom - m_windowSize.y) / 2;
+		posX = (currentRes.right - screenWidth) / 2;
+		posY = (currentRes.bottom - screenHeight) / 2;
 	}
 
 	m_hWnd = CreateWindowEx(WS_EX_APPWINDOW, m_applicationName, m_applicationName,
-		WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_POPUP,
-		posX, posY, m_windowSize.x, m_windowSize.y, NULL, NULL, m_hInstance, NULL);
+		WS_OVERLAPPEDWINDOW, //WS_CLIPSIBLINGS | WS_CLIPCHILDREN, | WS_POPUP,
+		posX, posY, screenWidth, screenHeight, NULL, NULL, m_hInstance, NULL);
 
 	ShowWindow(m_hWnd, SW_SHOW);
 	SetForegroundWindow(m_hWnd);

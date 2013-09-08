@@ -13,7 +13,7 @@ TestScene::~TestScene(void)
 {
 }
 
-bool TestScene::Initialize(void)
+bool TestScene::_initialize(void)
 {
 	bool result;
 

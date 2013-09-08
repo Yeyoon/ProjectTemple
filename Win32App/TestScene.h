@@ -6,7 +6,8 @@
 #include <Shader\LightShader.h>
 #include <Scene\Light.h>
 #include <Scene\Camera.h>
-#include <Text\Text.h>
+#include <Scene\Text.h>
+#include <Systems\LogManager.h>
 
 class TestScene : public Engine::Scene
 {
@@ -15,14 +16,15 @@ private:
 	Engine::Model* m_model;
 	Engine::Light* m_light;
 	//Engine::Text* m_text;
+
+	bool _initialize(void);
 public:
 	TestScene(void);
 	virtual ~TestScene(void);
 
-	bool Initialize(void);
 	void Shutdown(void);
 	void Render3D(void);
 	void Render2D(void);
-	void Update(double dTime){}
+	void Update(double dTime){};
 };
 #endif //__TESTSCENE_H_

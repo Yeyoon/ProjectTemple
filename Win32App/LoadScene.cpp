@@ -11,7 +11,7 @@ LoadScene::~LoadScene(void)
 {
 }
 
-bool LoadScene::Initialize(void)
+bool LoadScene::_initialize(void)
 {
 	m_nextScene = new TestScene();
 
