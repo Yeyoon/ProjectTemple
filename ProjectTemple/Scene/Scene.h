@@ -23,57 +23,22 @@ namespace Engine
 		Timer* m_updateTimer;
 		bool m_bTimerInit;
 
-		virtual bool _initialize(void) = 0;
+		virtual bool _initialize(void);
+		virtual void _kill(void);
 	private:
-		static void _updateThread(void* caller)
-		{
-			Scene *pCaller = (Scene*)caller;
-
-			while(pCaller->m_bUpdating)
-			{
-				if(pCaller->m_bInitialized)
-				{
-					if(pCaller->m_bTimerInit)
-					{
-						pCaller->Update(pCaller->m_updateTimer->GetTime());
-					}
-					else
-					{
-						pCaller->m_updateTimer->Initialize();
-						pCaller->m_bTimerInit = true;
-						pCaller->Update(pCaller->m_updateTimer->GetTime());
-					}
-				}
-			}
-		}
+		static void _updateThread(void* caller);
 	public:
-		Scene(void)
-		{
-			m_bInitialized = false;
-			m_bUpdating = true;
-			m_bTimerInit = false;
-			m_updateTimer = new Timer();
-			m_updateLoop = new Thread(Scene::_updateThread, this);
-			m_updateLoop->Start();
-		}
-		virtual ~Scene(void)
-		{
-			//This is bad, figure out how to cleanly kill the thread instead of pausing it.
-			m_updateLoop->Pause();
-			m_bUpdating = m_bInitialized = false;
-		}
+		Scene(void);
+		virtual ~Scene(void);
 
 		virtual void Render3D(void) = 0;
 		virtual void Render2D(void) = 0;
 		virtual void Shutdown(void) = 0;
-		virtual void Update(double dTime) = 0;
+		virtual void Update(double dTime);
 
-		bool Initialize(void)
-		{
-			m_bInitialized = _initialize();
-			return m_bInitialized;
-		}
-		bool IsInitialized(void){return m_bInitialized;};
+		virtual void Kill(void);
+		bool Initialize(void);
+		bool IsInitialized(void);
 	};
 };
 
