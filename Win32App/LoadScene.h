@@ -8,12 +8,11 @@
 
 class LoadScene : public Engine::Scene
 {
-private:
-	bool _initialize(void);
 public:
 	LoadScene(void);
 	virtual ~LoadScene(void);
 
+	bool Initialize(void);
 	void Shutdown(void){}
 	void Render2D(void);
 	void Render3D(void){}

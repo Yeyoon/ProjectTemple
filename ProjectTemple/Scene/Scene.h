@@ -8,69 +8,21 @@
 
 //#include <list>
 //#include "Model.h"
-#include "Systems\Thread.h"
-#include "Counters\Timer.h"
 
 namespace Engine
 {
 	class Scene
 	{
 		//typedef std::list<Model*> VectorType;
-	protected:
-		Thread* m_updateLoop;
-		bool m_bUpdating;
-		bool m_bInitialized;
-		Timer* m_updateTimer;
-		bool m_bTimerInit;
-
-		virtual bool _initialize(void) = 0;
-	private:
-		static void _updateThread(void* caller)
-		{
-			Scene *pCaller = (Scene*)caller;
-
-			while(pCaller->m_bUpdating)
-			{
-				if(pCaller->m_bInitialized)
-				{
-					if(pCaller->m_bTimerInit)
-					{
-						pCaller->Update(pCaller->m_updateTimer->GetTime());
-					}
-					else
-					{
-						pCaller->m_updateTimer->Initialize();
-						pCaller->m_bTimerInit = true;
-						pCaller->Update(pCaller->m_updateTimer->GetTime());
-					}
-				}
-			}
-		}
 	public:
-		Scene(void)
-		{
-			m_bInitialized = false;
-			m_bUpdating = true;
-			m_updateTimer = new Timer();
-			m_updateLoop = new Thread(Scene::_updateThread, this);
-			m_updateLoop->Start();
-		}
-		virtual ~Scene(void)
-		{
-			m_bUpdating = m_bInitialized = false;
-		}
+		Scene(void){}
+		virtual ~Scene(void){}
 
 		virtual void Render3D(void) = 0;
 		virtual void Render2D(void) = 0;
-		virtual void Shutdown(void) = 0;
 		virtual void Update(double dTime) = 0;
 
-		bool Initialize(void)
-		{
-			m_bInitialized = _initialize();
-			return m_bInitialized;
-		}
-		bool IsInitialized(void){return m_bInitialized;};
+		virtual void Shutdown(void) = 0;
 	};
 };
 
