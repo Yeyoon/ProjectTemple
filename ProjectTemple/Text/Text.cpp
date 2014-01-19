@@ -31,7 +31,7 @@ Text::~Text(void)
 ///////////////////////////////////////////////////////////////
 void Text::BuildText(const std::string& name, Font* font)
 {
-	m_builtText->Initialize(
+	//m_builtText->Initialize(
 }
 
 void Text::RenderText(void)

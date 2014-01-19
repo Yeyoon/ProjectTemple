@@ -68,11 +68,11 @@ bool Bitmap::Initialize(int width, int height, int* data)
 	result = InitializeBuffers();
 	if(!result)
 	{
-		LogManager::GetInstance()->Error("Bitmap::Initialize could not initiliaze the bitmap buffers (%s)", textureFilename);
+		//LogManager::GetInstance()->Error("Bitmap::Initialize could not initiliaze the bitmap buffers (%s)", textureFilename);
 		return false;
 	}
 
-	result = LoadTexture(
+	//result = LoadTexture(
 
 	return true;
 }

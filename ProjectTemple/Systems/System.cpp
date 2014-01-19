@@ -35,7 +35,7 @@ System::~System(void)
 ///////////////////////////////////////////////////////////////
 // Public Functions
 ///////////////////////////////////////////////////////////////
-bool System::Initialize(int winHeight, int winWidth)
+bool System::Initialize(int winWidth, int winHeight)
 {
 	LogManager::GetInstance()->Trace("System initializing...");
 	bool result;
@@ -43,7 +43,7 @@ bool System::Initialize(int winHeight, int winWidth)
 	m_graphics = NULL;
 	m_soundSystem = NULL;
 
-	InitializeWindows(winHeight, winWidth);
+	InitializeWindows(winWidth, winHeight);
 
 	m_input = new Input();
 	if(!m_input)
@@ -72,7 +72,7 @@ bool System::Initialize(int winHeight, int winWidth)
 		return false;
 	}
 
-	result = m_graphics->Initialize(m_screenWidth, m_screenHeight, m_hWnd);
+	result = m_graphics->Initialize(winWidth, winHeight, m_hWnd);
 	if(!result)
 	{
 		LogManager::GetInstance()->Error("System::Initialize Graphics could not be initialized");

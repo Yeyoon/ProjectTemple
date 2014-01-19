@@ -23,7 +23,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR pScmdline,
 
 	Engine::Overlord::SetSystem(pSys);
 
-	result = pSys->Initialize();
+	result = pSys->Initialize(640, 480);
 	if(result)
 	{
 		LoadScene* test = new LoadScene();
