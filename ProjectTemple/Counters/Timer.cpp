@@ -8,10 +8,6 @@ using namespace Engine;
 ///////////////////////////////////////////////////////////////
 Timer::Timer(void)
 {
-	m_frequency = 0;
-	m_ticksPerMs = 0;
-	m_startTime = 0;
-	m_frameTime = 0;
 }
 
 Timer::Timer(const Timer &other)
