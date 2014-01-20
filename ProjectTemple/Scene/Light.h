@@ -7,7 +7,6 @@
 #define __LIGHT_H_
 
 #include <D3DX10math.h>
-#include <Systems\LogManager.h>
 
 namespace Engine
 {

@@ -4,6 +4,9 @@
 // Company:		Ripe Tomato Studios
 ///////////////////////////////////////////////////////////////
 #include <Shader\ColorShader.h>
+#include <Systems\LogManager.h>
+#include <fstream>
+#include <D3DX11async.h>
 
 using namespace Engine;
 

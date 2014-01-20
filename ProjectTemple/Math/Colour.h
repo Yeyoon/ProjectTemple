@@ -12,7 +12,7 @@ namespace Engine
 {
 	//typedef unsigned char BYTE;
 
-	enum COLOUR_VALUE : UINT32
+	enum COLOUR_VALUE// : UINT32
 	{
 		WHITE		= 0xffffffff,
 		BLACK		= 0xff000000,

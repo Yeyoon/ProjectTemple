@@ -1,9 +1,20 @@
-#include <Math\Vector4.h>
+#include <Math/Vector4.h>
+#include <Math/Vector3.h>
+#include <Math/Math.h>
+#include <assert.h>
 #include <algorithm>
 
 using namespace Engine;
 
 const Vector4 Vector4::ZERO = Vector4(0,0,0,0);
+
+Vector4::Vector4(void) : x(0), y(0), z(0), w(0) {}
+Vector4::Vector4(const float fx, const float fy, const float fz, const float fw) : x(fx), y(fy), z(fz), w(fw) {}
+Vector4::Vector4(const float coord[4]) : x(coord[0]), y(coord[1]), z(coord[2]), w(coord[3]) {}
+Vector4::Vector4(const int coord[4]) : x((float)coord[0]), y((float)coord[1]), z((float)coord[2]), w((float)coord[3]) {}
+Vector4::Vector4(float* const r)  : x(r[0]), y(r[1]), z(r[2]), w(r[3]) {}
+Vector4::Vector4(const float scalar) : x(scalar), y(scalar), z(scalar), w(scalar) {}
+Vector4::Vector4(const Vector3& rhs, const float fw) : x(rhs.x), y(rhs.y), z(rhs.z), w(fw) {}
 
 void Vector4::swap(Vector4 &other)
 {

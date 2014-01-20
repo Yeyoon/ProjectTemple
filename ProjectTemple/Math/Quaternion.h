@@ -1,7 +1,6 @@
 #ifndef __QUATERNION_H_
 #define __QUATERNION_H_
 
-#include "Math\Math.h"
 namespace Engine
 {
 	class Quaternion

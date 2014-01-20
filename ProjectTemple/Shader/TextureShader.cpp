@@ -4,7 +4,11 @@
 // Company:		Ripe Tomato Studios
 ///////////////////////////////////////////////////////////////
 #include <Shader\TextureShader.h>
+#include <Systems\LogManager.h>
 #include <Systems\Overlord.h>
+#include <Shader\ShaderManager.h>
+#include <D3DX11async.h>
+#include <fstream>
 
 using namespace Engine;
 

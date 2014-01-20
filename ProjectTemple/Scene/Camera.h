@@ -6,12 +6,12 @@
 #ifndef __CAMERA_H_
 #define __CAMERA_H_
 
-#include <Systems\LogManager.h>
-#include <Scene\Frustum.h>
 #include <D3DX10math.h>
 
 namespace Engine
 {
+	class Frustum;
+
 	class Camera
 	{
 		friend class Player;

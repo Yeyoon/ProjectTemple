@@ -3,9 +3,16 @@
 // Author:		Daniel Cossu
 // Company:		Ripe Tomato Studios
 ///////////////////////////////////////////////////////////////
-#include <Shader\LightShader.h>
 #include <Systems\Overlord.h>
+#include <Systems\LogManager.h>
+#include <Shader\LightShader.h>
+#include <Shader\ShaderManager.h>
 #include <Scene\TextureManager.h>
+#include <Scene\Camera.h>
+#include <Scene\Light.h>
+#include <Scene\Texture.h>
+#include <D3DX11async.h>
+#include <fstream>
 
 using namespace Engine;
 

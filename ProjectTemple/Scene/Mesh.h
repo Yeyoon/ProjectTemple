@@ -6,16 +6,14 @@
 #ifndef __MESH_H_
 #define __MESH_H_
 
-#include <D3D11.h>
-#include <D3DX10math.h>
-#include <Systems\LogManager.h>
-#include <Scene\Texture.h>
-#include <assimp\include\assimp.h>
-#include <assimp\include\aiPostProcess.h>
-#include <assimp\include\aiScene.h>
+struct ID3D11Buffer;
+struct aiMesh;
+struct aiScene;
 
 namespace Engine
 {
+	class Texture;
+
 	class Mesh
 	{
 	private:

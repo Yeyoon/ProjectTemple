@@ -5,6 +5,20 @@
 ///////////////////////////////////////////////////////////////
 #include <Systems\Graphics.h>
 #include <Systems\Overlord.h>
+#include <Systems\DX11System.h>
+#include <Systems\LogManager.h>
+#include <Counters\FPSCounter.h>
+#include <Counters\CPUCounter.h>
+#include <Counters\Timer.h>
+#include <Shader\LightShader.h>
+#include <Shader\TextureShader.h>
+#include <Scene\Camera.h>
+#include <Scene\Model.h>
+#include <Scene\Light.h>
+#include <Scene\Bitmap.h>
+#include <Scene\Frustum.h>
+#include <Scene\Scene.h>
+#include <Text\Text.h>
 
 using namespace Engine;
 
@@ -35,7 +49,7 @@ Graphics::~Graphics(void)
 ///////////////////////////////////////////////////////////////
 // Public Functions
 ///////////////////////////////////////////////////////////////
-bool Graphics::Initialize(UINT screenWidth, UINT screenHeight, HWND hWnd)
+bool Graphics::Initialize(unsigned int screenWidth, unsigned int screenHeight, HWND hWnd)
 {
 	bool result;
 

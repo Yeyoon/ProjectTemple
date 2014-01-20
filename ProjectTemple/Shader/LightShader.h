@@ -6,17 +6,14 @@
 #ifndef __LIGHTSHADER_H_
 #define __LIGHTSHADER_H_
 
-#include <Systems\LogManager.h>
 #include <D3D11.h>
 #include <D3DX10math.h>
-#include <D3DX11async.h>
-#include <Scene\Light.h>
-#include <Scene\Texture.h>
-#include <fstream>
-using namespace std;
 
 namespace Engine
 {
+	class Texture;
+	class Light;
+
 	class LightShader
 	{
 		friend class ShaderManager;

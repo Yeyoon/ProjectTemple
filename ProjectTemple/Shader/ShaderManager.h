@@ -6,14 +6,16 @@
 #ifndef __SHADERMANAGER_H_
 #define __SHADERMANAGER_H_
 
-#include <Scene\Texture.h>
-#include <Shader\LightShader.h>
-#include <Shader\TextureShader.h>
-#include <Scene\Camera.h>
-#include <Scene\Light.h>
+#include <D3D11.h>
+#include <D3DX10math.h>
 
 namespace Engine
 {
+	class LightShader;
+	class TextureShader;
+	class Light;
+	class Texture;
+
 	class ShaderManager
 	{
 		friend class Overlord;

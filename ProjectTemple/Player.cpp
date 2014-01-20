@@ -1,4 +1,5 @@
 #include <Systems\Overlord.h>
+#include <Scene\Camera.h>
 #include <Player.h>
 
 using namespace Engine;

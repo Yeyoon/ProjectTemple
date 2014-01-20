@@ -6,10 +6,9 @@
 #ifndef __TEXTURE_H_
 #define __TEXTURE_H_
 
-#include <D3D11.h>
-#include <D3DX11tex.h>
-#include <Systems\LogManager.h>
 #include <string>
+
+struct ID3D11ShaderResourceView;
 
 namespace Engine
 {

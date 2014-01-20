@@ -6,12 +6,8 @@
 #ifndef __COLORSHADER_H_
 #define __COLORSHADER_H_
 
-#include <Systems\LogManager.h>
 #include <D3D11.h>
 #include <D3DX10math.h>
-#include <D3DX11async.h>
-#include <fstream>
-using namespace std;
 
 namespace Engine
 {

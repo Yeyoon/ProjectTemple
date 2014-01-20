@@ -3,11 +3,18 @@
 // Author:		Daniel Cossu
 // Company:		Ripe Tomato Studios
 ///////////////////////////////////////////////////////////////
-#include <Scene\Model.h>
+#include <D3DX11.h>
 #include <assimp\include\assimp.h>
 #include <assimp\include\aiPostProcess.h>
 #include <assimp\include\aiScene.h>
+
+#include <Scene\Model.h>
+#include <Scene\Mesh.h>
+#include <Scene\Camera.h>
 #include <Systems\Overlord.h>
+#include <Systems\LogManager.h>
+#include <Systems\DX11System.h>
+#include <Shader\ShaderManager.h>
 
 using namespace Engine;
 
@@ -71,6 +78,13 @@ void Model::Render(void)
 	{
 		(*i)->Render();
 	}
+}
+
+void Model::SetPosition(float x, float y, float z)
+{
+	m_position.x = x;
+	m_position.y = y;
+	m_position.z = z;
 }
 
 void Model::GetPosition(float* x, float* y, float* z)

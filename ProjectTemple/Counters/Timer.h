@@ -6,16 +6,14 @@
 #ifndef __TIMER_H_
 #define __TIMER_H_
 
-#include <Windows.h>
-
 namespace Engine
 {
 	class Timer
 	{
 	private:
-		INT64 m_frequency;
+		unsigned long long m_frequency;
 		double m_ticksPerMs;
-		INT64 m_startTime;
+		unsigned long long m_startTime;
 		double m_frameTime;
 	public:
 		Timer(void);

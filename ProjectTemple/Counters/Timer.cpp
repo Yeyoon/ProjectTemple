@@ -1,5 +1,6 @@
 #include <Counters\Timer.h>
 #include <Systems\LogManager.h>
+#include <Windows.h>
 
 using namespace Engine;
 

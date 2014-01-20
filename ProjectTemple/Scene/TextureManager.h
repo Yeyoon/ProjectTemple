@@ -6,12 +6,13 @@
 #ifndef __TEXTUREMANAGER_H_
 #define __TEXTUREMANAGER_H_
 
-#include <Scene\Texture.h>
-#include <Systems\Destroyer.h>
 #include <map>
+#include <Systems\Destroyer.h>
 
 namespace Engine
 {
+	class Texture;
+
 	class TextureManager
 	{
 		friend class Destroyer<TextureManager>;

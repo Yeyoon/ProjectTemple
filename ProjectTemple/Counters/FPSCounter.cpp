@@ -4,6 +4,7 @@
 // Company:		Ripe Tomato Studios
 ///////////////////////////////////////////////////////////////
 #include <Counters\FPSCounter.h>
+#include <Windows.h>
 
 using namespace Engine;
 

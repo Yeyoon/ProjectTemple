@@ -4,6 +4,11 @@
 // Company:		Ripe Tomato Studios
 ///////////////////////////////////////////////////////////////
 #include <Shader\ShaderManager.h>
+#include <Shader\LightShader.h>
+#include <Shader\TextureShader.h>
+#include <Scene\Texture.h>
+#include <Scene\Camera.h>
+#include <Scene\Light.h>
 
 using namespace Engine;
 

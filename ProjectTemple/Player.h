@@ -1,11 +1,12 @@
 #ifndef __PLAYER_H_
 #define __PLAYER_H_
 
-#include <Scene\Camera.h>
 //#include <Systems\Havok.h>
 
 namespace Engine
 {
+	class Camera;
+
 	class Player
 	{
 	private:

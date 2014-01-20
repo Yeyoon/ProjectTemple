@@ -275,8 +275,8 @@ void System::InitializeWindows(UINT screenWidth, UINT screenHeight)
 
 	RECT currentRes;
 	GetWindowRect(GetDesktopWindow(), &currentRes);
-	m_windowSize.x = currentRes.right;
-	m_windowSize.y = currentRes.bottom;
+	m_windowSize.x = (float)currentRes.right;
+	m_windowSize.y = (float)currentRes.bottom;
 
 	if(g_fullScreen)
 	{
@@ -292,16 +292,16 @@ void System::InitializeWindows(UINT screenWidth, UINT screenHeight)
 	}
 	else
 	{
-		m_windowSize.x = screenWidth;
-		m_windowSize.y = screenHeight;
+		m_windowSize.x = (float)screenWidth;
+		m_windowSize.y = (float)screenHeight;
 
-		posX = (currentRes.right - m_windowSize.x) / 2;
-		posY = (currentRes.bottom - m_windowSize.y) / 2;
+		posX = (int)((currentRes.right - m_windowSize.x) / 2);
+		posY = (int)((currentRes.bottom - m_windowSize.y) / 2);
 	}
 
 	m_hWnd = CreateWindowEx(WS_EX_APPWINDOW, m_applicationName, m_applicationName,
 		WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_POPUP,
-		posX, posY, m_windowSize.x, m_windowSize.y, NULL, NULL, m_hInstance, NULL);
+		posX, posY, (int)m_windowSize.x, (int)m_windowSize.y, NULL, NULL, m_hInstance, NULL);
 
 	ShowWindow(m_hWnd, SW_SHOW);
 	SetForegroundWindow(m_hWnd);

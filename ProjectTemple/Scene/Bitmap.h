@@ -6,13 +6,16 @@
 #ifndef __BITMAP_H_
 #define __BITMAP_H_
 
-#include <D3D11.h>
-#include <D3DX10math.h>
-#include <Scene\Texture.h>
+#include <string>
 #include <Math\Vector2.h>
+#include <D3DX10math.h>
+
+struct ID3D11Buffer;
 
 namespace Engine
 {
+	class Texture;
+
 	class Bitmap
 	{
 	private:

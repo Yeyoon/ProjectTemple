@@ -1,23 +1,22 @@
 #ifndef __VECTOR4_H_
 #define __VECTOR4_H_
 
-#include <Math\Math.h>
-#include <Math\Vector3.h>
-
 namespace Engine
 {
+	class Vector3;
+
 	class Vector4
 	{
 	public:
 		float x, y, z, w;
 	public:
-		Vector4(void){}
-		Vector4(const float fx, const float fy, const float fz, const float fw) : x(fx), y(fy), z(fz), w(fw) {}
-		Vector4(const float coord[4]) : x(coord[0]), y(coord[1]), z(coord[2]), w(coord[3]) {}
-		Vector4(const int coord[4]) : x((float)coord[0]), y((float)coord[1]), z((float)coord[2]), w((float)coord[3]) {}
-		Vector4(float* const r)  : x(r[0]), y(r[1]), z(r[2]), w(r[3]) {}
-		Vector4(const float scalar) : x(scalar), y(scalar), z(scalar), w(scalar) {}
-		Vector4(const Vector3& rhs, const float fw = 1.0f) : x(rhs.x), y(rhs.y), z(rhs.z), w(fw) {}
+		Vector4(void);
+		Vector4(const float fx, const float fy, const float fz, const float fw);
+		Vector4(const float coord[4]);
+		Vector4(const int coord[4]);
+		Vector4(float* const r);
+		Vector4(const float scalar);
+		Vector4(const Vector3& rhs, const float fw = 1.0f);
 
 		void swap(Vector4 &other);
 		float dotProduct(const Vector4& vec) const;

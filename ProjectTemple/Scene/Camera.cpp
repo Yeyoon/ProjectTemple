@@ -4,7 +4,11 @@
 // Company:		Ripe Tomato Studios
 ///////////////////////////////////////////////////////////////
 #include <Systems\Overlord.h>
+#include <Systems\LogManager.h>
+#include <Systems\DX11System.h>
+#include <Systems\Graphics.h>
 #include <Scene\Camera.h>
+#include <Scene\Frustum.h>
 
 using namespace Engine;
 

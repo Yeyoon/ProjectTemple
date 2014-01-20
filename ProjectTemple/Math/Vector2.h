@@ -1,22 +1,21 @@
 #ifndef __VECTOR2_H_
 #define __VECTOR2_H_
 
-#include <Math\Math.h>
-
 namespace Engine
 {
 	class Vector3;
+	class Radian;
 
 	class Vector2
 	{
 	public:
 		float x, y;
 	public:
-		Vector2(void){}
-		Vector2(const float fx, const float fy) : x(fx), y(fy){}
-		Vector2(const float scalar) : x(scalar), y(scalar){}
-		Vector2(const float coord[2]) : x(coord[0]), y(coord[1]){}
-		Vector2(float* const r) : x(r[0]), y(r[1]){}
+		Vector2(void);
+		Vector2(const float fx, const float fy);
+		Vector2(const float scalar);
+		Vector2(const float coord[2]);
+		Vector2(float* const r);
 
 		void Swap(Vector2 &other);
 		float Length(void) const;
@@ -74,6 +73,7 @@ namespace Engine
 		friend Vector2 operator- (const Vector2& lhs, const float rhs);
 		friend Vector2 operator* (const float lhs, const Vector2& rhs);
 		friend Vector2 operator/ (const float lhs, const Vector2& rhs);
+		friend Vector2 operator/ (const Vector2& lhs, const float rhs);
 
 		static const Vector2 ZERO;
 		static const Vector2 UNIT_X;

@@ -1,4 +1,5 @@
 #include <Math\Vector2.h>
+#include <Math\Math.h>
 #include <algorithm>
 #include <assert.h>
 
@@ -9,6 +10,12 @@ const Vector2 Vector2::UNIT_X = Vector2(1,0);
 const Vector2 Vector2::UNIT_Y = Vector2(0,1);
 const Vector2 Vector2::NEGATIVE_UNIT_X = Vector2(-1,0);
 const Vector2 Vector2::NEGATIVE_UNIT_Y = Vector2(0,-1);
+
+Vector2::Vector2(void) : x(0), y(0) {}
+Vector2::Vector2(const float fx, const float fy) : x(fx), y(fy) {}
+Vector2::Vector2(const float scalar) : x(scalar), y(scalar) {}
+Vector2::Vector2(const float coord[2]) : x(coord[0]), y(coord[1]) {}
+Vector2::Vector2(float* const r) : x(r[0]), y(r[1]) {}
 
 void Vector2::Swap(Vector2 &other)
 {
@@ -319,4 +326,9 @@ Vector2 operator* (const float lhs, const Vector2& rhs)
 Vector2 operator/ (const float lhs, const Vector2& rhs)
 {
 	return Vector2(lhs / rhs.x, lhs / rhs.y);
+}
+
+Vector2 operator/ (const Vector2& lhs, const float rhs)
+{
+	return Vector2(lhs.x / rhs, lhs.y / rhs);
 }

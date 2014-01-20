@@ -5,6 +5,10 @@
 ///////////////////////////////////////////////////////////////
 #include <Scene\Texture.h>
 #include <Systems\Overlord.h>
+#include <Systems\LogManager.h>
+
+#include <D3D11.h>
+#include <D3DX11tex.h>
 
 using namespace Engine;
 

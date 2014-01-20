@@ -1,6 +1,8 @@
 #include <Math\Vector3.h>
 #include <Math\Vector2.h>
+#include <Math\Math.h>
 #include <algorithm>
+#include <assert.h>
 
 using namespace Engine;
 
@@ -13,12 +15,13 @@ const Vector3 Vector3::NEGATIVE_UNIT_Z	= Vector3(0,0,-1);
 const Vector3 Vector3::ZERO				= Vector3(0,0,0);
 const Vector3 Vector3::UNIT_SCALE		= Vector3(1,1,1);
 
-Vector3::Vector3(const Vector2& vec2, const float fz)
-{
-	x = vec2.x;
-	y = vec2.y;
-	z = fz;
-}
+Vector3::Vector3(void) : x(0), y(0), z(0) {}
+Vector3::Vector3(const Vector2& vec2, const float fz) : x(vec2.x), y(vec2.y), z(fz) {}
+Vector3::Vector3(const float fx, const float fy, const float fz) : x(fx), y(fy), z(fz) {}
+Vector3::Vector3(const float coord[3]) : x(coord[0]), y(coord[1]), z(coord[2]) {}
+Vector3::Vector3(const int coord[3]) : x((float)coord[0]), y((float)coord[1]), z((float)coord[2]) {}
+Vector3::Vector3(float *const r) : x(r[0]), y(r[1]), z(r[2]) {}
+Vector3::Vector3(const float scalar) : x(scalar), y(scalar), z(scalar) {}
 
 void Vector3::Swap(Vector3& other)
 {

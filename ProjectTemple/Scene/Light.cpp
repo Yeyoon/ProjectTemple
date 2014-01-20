@@ -4,6 +4,7 @@
 // Company:		Ripe Tomato Studios
 ///////////////////////////////////////////////////////////////
 #include <Scene\Light.h>
+#include <Systems\LogManager.h>
 
 using namespace Engine;
 

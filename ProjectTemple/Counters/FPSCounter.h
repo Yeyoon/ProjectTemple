@@ -6,16 +6,13 @@
 #ifndef __FPSCOUNTER_H_
 #define __FPSCOUNTER_H_
 
-#include <Windows.h>
-#include <MMSystem.h>
-
 namespace Engine
 {
 	class FPSCounter
 	{
 	private:
 		int m_fps, m_count;
-		ULONG m_startTime;
+		unsigned long m_startTime;
 	public:
 		FPSCounter(void);
 		FPSCounter(const FPSCounter &other);

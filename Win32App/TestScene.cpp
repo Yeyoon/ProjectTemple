@@ -1,5 +1,8 @@
 #include "TestScene.h"
 #include <Systems\Overlord.h>
+#include <Systems\LogManager.h>
+#include <Systems\Input.h>
+#include <Shader\ShaderManager.h>
 
 TestScene::TestScene(void)
 {

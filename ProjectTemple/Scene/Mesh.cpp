@@ -3,9 +3,19 @@
 // Author:		Daniel Cossu
 // Company:		Ripe Tomato Studios
 ///////////////////////////////////////////////////////////////
-#include <Scene\Mesh.h>
-#include <Systems\Overlord.h>
+#include <D3D11.h>
+#include <D3DX10math.h>
+#include <assimp\include\assimp.h>
+#include <assimp\include\aiPostProcess.h>
+#include <assimp\include\aiScene.h>
+#include <Scene\Texture.h>
 #include <Scene\TextureManager.h>
+#include <Scene\Mesh.h>
+#include <Scene\Camera.h>
+#include <Scene\Frustum.h>
+#include <Systems\Overlord.h>
+#include <Systems\LogManager.h>
+#include <Shader\ShaderManager.h>
 
 using namespace Engine;
 

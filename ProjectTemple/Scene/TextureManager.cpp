@@ -4,6 +4,7 @@
 // Company:		Ripe Tomato Studios
 ///////////////////////////////////////////////////////////////
 #include <Scene\TextureManager.h>
+#include <Scene\Texture.h>
 
 using namespace Engine;
 

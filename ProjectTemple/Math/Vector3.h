@@ -1,25 +1,24 @@
 #ifndef __VECTOR3_H_
 #define __VECTOR3_H_
 
-#include <Math\Math.h>
-
 namespace Engine
 {
 	class Vector2;
 	class Quaternion;
+	class Radian;
 
 	class Vector3
 	{
 	public:
 		float x, y, z;
 	public:
-		Vector3(void){}
+		Vector3(void);
 		Vector3(const Vector2& vec2, const float fz);
-		Vector3(const float fx, const float fy, const float fz) : x(fx), y(fy), z(fz){}
-		Vector3(const float coord[3]) : x(coord[0]), y(coord[1]), z(coord[2]){}
-		Vector3(const int coord[3]) : x((float)coord[0]), y((float)coord[1]), z((float)coord[2]){}
-		Vector3(float *const r) : x(r[0]), y(r[1]), z(r[2]){}
-		Vector3(const float scalar) : x(scalar), y(scalar), z(scalar){}
+		Vector3(const float fx, const float fy, const float fz);
+		Vector3(const float coord[3]);
+		Vector3(const int coord[3]);
+		Vector3(float *const r);
+		Vector3(const float scalar);
 
 		void Swap(Vector3& other);
 		float Length(void) const;

@@ -1,10 +1,12 @@
 #ifndef __MATRIX3_H_
 #define __MATRIX3_H_
 
-#include "Math\Vector3.h"
-
 namespace Engine
 {
+	class Vector3;
+	class Radian;
+	class Degree;
+
 	class Matrix3
 	{
 	protected:

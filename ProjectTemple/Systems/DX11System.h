@@ -6,7 +6,6 @@
 #ifndef __DX11SYSTEM_H_
 #define __DX11SYSTEM_H_
 
-#include <Systems\LogManager.h>
 #include <DXGI.h>
 #include <D3Dcommon.h>
 #include <D3D11.h>

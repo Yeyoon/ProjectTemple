@@ -6,25 +6,16 @@
 #ifndef __GRAPHICS_H_
 #define __GRAPHICS_H_
 
-#include <Systems\DX11System.h>
-#include <Systems\LogManager.h>
-#include <Counters\FPSCounter.h>
-#include <Counters\CPUCounter.h>
-#include <Counters\Timer.h>
-#include <Shader\LightShader.h>
-#include <Shader\TextureShader.h>
-#include <Scene\Camera.h>
-#include <Scene\Model.h>
-#include <Scene\Light.h>
-#include <Scene\Bitmap.h>
-#include <Scene\Frustum.h>
-#include <Scene\Scene.h>
-#include <Text\Text.h>
-
 #include <Windows.h>
 
 namespace Engine
 {
+	class DX11System;
+	class Scene;
+	class Timer;
+	class FPSCounter;
+	class CPUCounter;
+
 	const bool	g_fullScreen = false;
 	const bool  g_vSync = false;
 	const float g_zFar = 10000.0f;
@@ -49,7 +40,7 @@ namespace Engine
 		Graphics(const Graphics &other);
 		virtual ~Graphics(void);
 
-		bool Initialize(UINT screenWidth, UINT screenHeight, HWND hWnd);
+		bool Initialize(unsigned int screenWidth, unsigned int screenHeight, HWND hWnd);
 		void Shutdown(void);
 		bool Frame(void);
 

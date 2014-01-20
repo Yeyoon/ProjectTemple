@@ -3,9 +3,14 @@
 // Author:		Daniel Cossu
 // Company:		Ripe Tomato Studios
 ///////////////////////////////////////////////////////////////
-#include <Scene\Bitmap.h>
+#include <D3D11.h>
+
 #include <Systems\Overlord.h>
+#include <Systems\LogManager.h>
+#include <Systems\System.h>
+#include <Scene\Bitmap.h>
 #include <Scene\TextureManager.h>
+#include <Scene\Texture.h>
 
 using namespace Engine;
 
