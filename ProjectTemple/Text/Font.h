@@ -9,10 +9,11 @@
 #include <vector>
 #include <string>
 #include <map>
-#include "Scene\Texture.h"
 
 namespace Engine
 {
+	class Texture;
+
 	struct Kerning
 	{
 		friend class Font;

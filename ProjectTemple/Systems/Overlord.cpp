@@ -8,6 +8,7 @@
 #include <Systems\System.h>
 #include <Systems\DX11System.h>
 #include <Systems\Input.h>
+#include <Systems\Graphics.h>
 #include <Scene\Camera.h>
 #include <Scene\Scene.h>
 #include <Shader\ShaderManager.h>

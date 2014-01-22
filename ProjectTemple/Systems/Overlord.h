@@ -9,8 +9,8 @@
 #include <Systems\Destroyer.h>
 #include <Windows.h>
 
-class ID3D11DeviceContext;
-class ID3D11Device;
+struct ID3D11DeviceContext;
+struct ID3D11Device;
 
 namespace Engine
 {

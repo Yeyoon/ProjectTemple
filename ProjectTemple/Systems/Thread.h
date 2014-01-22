@@ -1,9 +1,6 @@
 #ifndef __THREAD_H_
 #define __THREAD_H_
 
-#include <Windows.h>
-#include <process.h>
-
 namespace Engine
 {
 	class Thread

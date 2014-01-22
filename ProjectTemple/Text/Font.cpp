@@ -3,9 +3,10 @@
 // Author:		Daniel Cossu
 // Company:		Ripe Tomato Studios
 ///////////////////////////////////////////////////////////////
-#include "Font.h"
-#include "Scene\TextureManager.h"
-#include "Systems\LogManager.h"
+#include <Text\Font.h>
+#include <Scene\TextureManager.h>
+#include <Systems\LogManager.h>
+#include <Scene\Texture.h>
 
 using namespace Engine;
 

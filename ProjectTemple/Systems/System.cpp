@@ -4,6 +4,12 @@
 // Company:		Ripe Tomato Studios
 ///////////////////////////////////////////////////////////////
 #include <Systems\System.h>
+#include <Systems\Input.h>
+#include <Systems\Graphics.h>
+#include <Systems\LogManager.h>
+#include <Systems\SoundSystem.h>
+#include <Shader\ShaderManager.h>
+#include <Counters\Timer.h>
 
 using namespace Engine;
 
@@ -35,7 +41,7 @@ System::~System(void)
 ///////////////////////////////////////////////////////////////
 // Public Functions
 ///////////////////////////////////////////////////////////////
-bool System::Initialize(int winWidth, int winHeight)
+bool System::Initialize(unsigned int winWidth, unsigned int winHeight)
 {
 	LogManager::GetInstance()->Trace("System initializing...");
 	bool result;

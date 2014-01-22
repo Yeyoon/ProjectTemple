@@ -3,6 +3,8 @@
 // Author:		Daniel Cossu
 // Company:		Ripe Tomato Studios
 ///////////////////////////////////////////////////////////////
+#include <Windows.h>
+#include <FMOD\Win32\fmod_errors.h>
 #include <Systems\SoundSystem.h>
 #include <Systems\LogManager.h>
 

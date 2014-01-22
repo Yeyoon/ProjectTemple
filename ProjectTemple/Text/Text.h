@@ -6,12 +6,13 @@
 #ifndef __TEXT_H_
 #define __TEXT_H_
 
-#include <Text\Font.h>
-#include <Scene\Bitmap.h>
 #include <string>
 
 namespace Engine
 {
+	class Bitmap;
+	class Font;
+
 	class Text
 	{
 	private:

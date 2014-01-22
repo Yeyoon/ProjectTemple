@@ -1,5 +1,8 @@
 #include <Systems\Thread.h>
 
+#include <Windows.h>
+#include <process.h>
+
 using namespace Engine;
 
 Thread::Thread(CallbackFunc func, void* caller)

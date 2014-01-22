@@ -4,6 +4,7 @@
 // Company:		Ripe Tomato Studios
 ///////////////////////////////////////////////////////////////
 #include <Text\FontManager.h>
+#include <Text\Font.h>
 
 using namespace Engine;
 

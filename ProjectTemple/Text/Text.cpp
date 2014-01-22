@@ -5,6 +5,8 @@
 ///////////////////////////////////////////////////////////////
 #include <Text\Text.h>
 #include <Scene\TextureManager.h>
+#include <Text\Font.h>
+#include <Scene\Bitmap.h>
 
 using namespace Engine;
 

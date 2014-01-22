@@ -6,11 +6,14 @@
 #ifndef __FONTMANAGER_H_
 #define __FONTMANAGER_H_
 
-#include <Text\Font.h>
 #include <Systems\Destroyer.h>
+#include <string>
+#include <map>
 
 namespace Engine
 {
+	class Font;
+
 	class FontManager
 	{
 		friend class Destroyer<FontManager>;

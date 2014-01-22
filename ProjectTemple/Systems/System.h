@@ -9,16 +9,15 @@
 #define WIN32_LEAN_AND_MEAN
 
 #include <Windows.h>
-#include <Systems\Input.h>
-#include <Systems\Graphics.h>
-#include <Systems\LogManager.h>
-#include <Systems\SoundSystem.h>
-#include <Shader\ShaderManager.h>
-#include <Counters\Timer.h>
 #include <Math\Vector2.h>
 
 namespace Engine
 {
+	class Graphics;
+	class SoundSystem;
+	class ShaderManager;
+	class Input;
+
 	class System
 	{
 		friend class Overlord;
@@ -37,19 +36,16 @@ namespace Engine
 		System(const System &other);
 		virtual ~System(void);
 
-		bool Initialize(int winHeight, int winWidth);
+		bool Initialize(unsigned int winHeight, unsigned int winWidth);
 		void Shutdown(void);
 		void Run(void);
 		Vector2 GetWindowSize(void);
-
-
-		//LRESULT CALLBACK MessageHandler(HWND hWnd, UINT msg, WPARAM wparam, LPARAM lparam);
 
 	private:
 		static LRESULT CALLBACK WndProc(HWND hWnd, UINT msg, WPARAM wparam, LPARAM lparam);
 
 		bool Frame(void);
-		void InitializeWindows(UINT screenWidth, UINT screenHeight);
+		void InitializeWindows(unsigned int screenWidth, unsigned int screenHeight);
 		void ShutdownWindows(void);
 	};
 };

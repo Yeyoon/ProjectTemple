@@ -6,9 +6,7 @@
 #ifndef __SOUNDSYSTEM_H_
 #define __SOUNDSYSTEM_H_
 
-#include <Windows.h>
 #include <FMOD\Win32\fmod.hpp>
-#include <FMOD\Win32\fmod_errors.h>
 
 #undef PlaySound
 
